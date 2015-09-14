@@ -20,19 +20,14 @@ from collections import defaultdict
 
 
 def audit_identifiers(licenses):
+    total = len(licenses)
     schemes = defaultdict(lambda: 0)
-
     for license in licenses:
         for identifier in license.get('identifiers', []):
             schemes[identifier['scheme']] += 1
 
-    total = len(licenses)
-
-    return [
-        {"scheme": scheme,
-         "count": count,
-         "percent": count/total,} for (scheme, count) in schemes.items()
-    ]
+    return [{"scheme": scheme, "count": count, "percent": count/total}
+            for (scheme, count) in schemes.items()]
 
 
 def audit(path):

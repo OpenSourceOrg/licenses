@@ -1,0 +1,56 @@
+[
+    {
+        "id": "BSD-2",
+        "identifiers": [
+            {
+                "identifier": "BSD-2-Clause",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "BSD-3",
+        "identifiers": [
+            {
+                "identifier": "BSD-3-Clause",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "BSD-4",
+        "identifiers": [
+            {
+                "identifier": "BSD-4-Clause",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "Expat",
+        "identifiers": [
+            {
+                "identifier": "MIT",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "Simple-2.0",
+        "identifiers": [
+            {
+                "identifier": "SimPL-2.0",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "WXwindows",
+        "identifiers": [
+            {
+                "identifier": "WXwindows",
+                "scheme": "SPDX"
+            }
+        ]
+    }
+]

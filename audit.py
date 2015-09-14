@@ -30,10 +30,29 @@ def audit_identifiers(licenses):
             for (scheme, count) in schemes.items()]
 
 
+def audit_names(licenses):
+    def check_name(license):
+        if 'version' in license['name']:
+            yield "contains 'version', use 'Version'"
+
+        if license['name'] == license['name'].upper():
+            yield "all uppercase"
+
+        # lname = license['name'].lower()
+        # if lname.startswith("the"):
+        #     yield "Name starts with 'The'"
+
+    return list(filter(
+        lambda x: x['problems'] != [],
+        [{"id": x['id'], "name": x['name'], "problems": list(check_name(x))}
+         for x in licenses]))
+
+
 def audit(path):
     with open(path, 'r') as fd:
         licenses = json.load(fd)
-    report = {"identifiers": audit_identifiers(licenses)}
+    report = {"identifiers": audit_identifiers(licenses),
+              "names": audit_names(licenses)}
     json.dump(report, sys.stdout, indent=4, sort_keys=True)
 
 

@@ -62,7 +62,7 @@ def merge_stream(stream):
 
 
 def validate(stream):
-    with open("schema/license.validictory", 'r') as fd:
+    with open("schema/license.json", 'r') as fd:
         schema = json.load(fd)
 
     def valid_schema(obj):

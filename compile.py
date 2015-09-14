@@ -80,7 +80,7 @@ def validate(stream):
         yield el
 
 
-def stream_licenses(path="."):
+def stream_licenses(path="./licenses"):
     """
     Given a path, walk all the JSON in the directory, and yield back all the
     license data blobs from each.
@@ -92,7 +92,7 @@ def stream_licenses(path="."):
             yield from load_file(os.path.join(dirpath, filename))
 
 
-def load_licenses(path=".", output="licenses.json"):
+def load_licenses(path="./licenses", output="licenses.json"):
     if os.path.exists(output):
         if os.stat(output).st_mtime < os.stat(__file__).st_mtime:
             os.unlink(output)

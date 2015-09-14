@@ -17,6 +17,7 @@ import os
 import os.path
 import sys
 import json
+import validictory
 
 if sys.version_info < (3,):
     print("This program is Python 3 only")
@@ -61,8 +62,16 @@ def merge_stream(stream):
 
 
 def validate(stream):
+    with open("schema/license.validictory", 'r') as fd:
+        schema = json.load(fd)
+
+    def valid_schema(obj):
+        validictory.validate(obj, schema)
+
     seen = set()
     for el in stream:
+        valid_schema(el)
+
         if el['id'] in seen:
             raise ValueError("Duplicate ID in stream")
         seen.add(el['id'])

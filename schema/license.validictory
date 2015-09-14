@@ -1,0 +1,84 @@
+{
+    "properties": {
+        "id": {
+            "type": "string"
+        },
+        "identifiers": {
+            "items": {
+                "properties": {
+                    "identifier": {
+                        "type": "string"
+                    },
+                    "scheme": {
+                        "type": "string"
+                    }
+                }
+            },
+            "required": false,
+            "type": "array"
+        },
+        "links": {
+            "items": {
+                "properties": {
+                    "note": {
+                        "blank": true,
+                        "type": "string"
+                    },
+                    "url": {
+                        "format": "uri",
+                        "type": "string"
+                    }
+                },
+                "type": "object"
+            },
+            "required": false,
+            "type": "array"
+        },
+        "name": {
+            "type": "string"
+        },
+        "other_names": {
+            "items": {
+                "properties": {
+                    "name": {
+                        "type": "string"
+                    },
+                    "note": {
+                        "type": ["null", "string"]
+                    }
+                },
+                "type": "object"
+            },
+            "required": false,
+            "type": "array"
+        },
+        "superseded_by": {
+            "type": ["null", "string"],
+            "required": false
+        },
+        "tags": {
+            "items": {
+                "type": "string"
+            },
+            "type": "array"
+        },
+        "text": {
+            "items": {
+                "properties": {
+                    "content_type": {
+                        "type": "string"
+                    },
+                    "name": {
+                        "type": "string"
+                    },
+                    "url": {
+                        "type": "string"
+                    }
+                },
+                "type": "object"
+            },
+            "type": "array"
+        }
+    },
+    "type": "object"
+}

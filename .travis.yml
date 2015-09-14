@@ -1,4 +1,13 @@
 language: python
 python:
     - "3.4"
-script: python ./compile.py .
+script: python ./compile.py
+# deploy:
+#     skip_cleanup: true
+#     provider: s3
+#     access_key_id: ${S3_ACCESS_KEY}
+#     secret_access_key: ${S3_ACCESS_KEY}
+#     bucket: "s3://s3.amazonaws.com/api.opensource.org"
+#     upload-dir: licenses
+#     detect_encoding: true
+#     acl: public_read

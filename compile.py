@@ -71,7 +71,7 @@ def validate(stream):
         yield el
 
 
-def load_licenses(path="."):
+def stream_licenses(path="."):
     """
     Given a path, walk all the JSON in the directory, and yield back all the
     license data blobs from each.
@@ -83,7 +83,18 @@ def load_licenses(path="."):
             yield from load_file(os.path.join(dirpath, filename))
 
 
+def load_licenses(path=".", output="licenses.json"):
+    if os.path.exists(output):
+        print("Output file already exists, doing nothing")
+        sys.exit(0)
+
+    licenses = stream_licenses(path=path)
+    data = list(validate(merge_stream(licenses)))
+
+    with open(output, 'w') as fd:
+        json.dump(data, fd)
+    json.dump(data, sys.stdout, sort_keys=True, indent=4)
+
+
 if __name__ == "__main__":
-    licenses = load_licenses(*sys.argv[1:])
-    json.dump(list(validate(merge_stream(licenses))),
-              sys.stdout, sort_keys=True, indent=4)
+    load_licenses(*sys.argv[1:])

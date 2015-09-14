@@ -94,8 +94,11 @@ def stream_licenses(path="."):
 
 def load_licenses(path=".", output="licenses.json"):
     if os.path.exists(output):
-        print("Output file already exists, doing nothing")
-        sys.exit(0)
+        if os.stat(output).st_mtime < os.stat(__file__).st_mtime:
+            os.unlink(output)
+        else:
+            print("Output file already exists, doing nothing")
+            sys.exit(0)
 
     licenses = stream_licenses(path=path)
     data = list(validate(merge_stream(licenses)))

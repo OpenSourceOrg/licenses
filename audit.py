@@ -13,8 +13,9 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-import json
+import os
 import sys
+import json
 
 from collections import defaultdict
 
@@ -26,8 +27,8 @@ def audit_identifiers(licenses):
         for identifier in license.get('identifiers', []):
             schemes[identifier['scheme']] += 1
 
-    return [{"scheme": scheme, "count": count, "percent": count/total}
-            for (scheme, count) in schemes.items()]
+    return [{"scheme": scheme, "count": count, "percent": count/total,
+             "fatal": False} for (scheme, count) in schemes.items()]
 
 
 def audit_names(licenses):
@@ -44,16 +45,37 @@ def audit_names(licenses):
 
     return list(filter(
         lambda x: x['problems'] != [],
-        [{"id": x['id'], "name": x['name'], "problems": list(check_name(x))}
-         for x in licenses]))
+        [{"id": x['id'], "name": x['name'], "problems": list(check_name(x)),
+          "fatal": True} for x in licenses]))
 
 
-def audit(path):
+def audit_full_text(licenses):
+    def missing(licenses):
+        for license in licenses:
+            if not os.path.exists("texts/plain/{id}".format(**license)):
+                yield license
+
+    return [{"id": license['id'],
+             "fatal": True} for license in missing(licenses)]
+
+
+def has_error(report):
+    for class_, elements in report.items():
+        for element in elements:
+            if element['fatal']:
+                return True
+    return False
+
+
+def audit(path='licenses.json'):
     with open(path, 'r') as fd:
         licenses = json.load(fd)
     report = {"identifiers": audit_identifiers(licenses),
-              "names": audit_names(licenses)}
+              "names": audit_names(licenses),
+              "full_text": audit_full_text(licenses)}
     json.dump(report, sys.stdout, indent=4, sort_keys=True)
+    if has_error(report):
+        sys.exit(1)
 
 
 audit(*sys.argv[1:])

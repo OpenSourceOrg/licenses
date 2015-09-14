@@ -1,7 +1,7 @@
 language: python
 python:
     - "3.4"
-script: python ./compile.py
+script: python ./compile.py && python ./audit.py
 # deploy:
 #     skip_cleanup: true
 #     provider: s3

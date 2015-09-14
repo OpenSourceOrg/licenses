@@ -1,12 +1,7 @@
 [
     {
         "id": "EPL-1.0",
-        "identifiers": [
-            {
-                "identifier": "EPL-1.0",
-                "scheme": "SPDX"
-            }
-        ],
+        "identifiers": [],
         "links": [
             {
                 "note": "OSI Page",

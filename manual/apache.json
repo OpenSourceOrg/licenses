@@ -1,12 +1,7 @@
 [
     {
         "id": "Apache-2.0",
-        "identifiers": [
-            {
-                "identifier": "Apache-2.0",
-                "scheme": "SPDX"
-            }
-        ],
+        "identifiers": [],
         "links": [
             {
                 "note": "OSI Page",

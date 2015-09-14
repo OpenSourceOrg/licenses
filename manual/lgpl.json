@@ -1,12 +1,7 @@
 [
     {
         "id": "LGPL-3.0",
-        "identifiers": [
-            {
-                "identifier": "LGPL-3.0",
-                "scheme": "SPDX"
-            }
-        ],
+        "identifiers": [],
         "links": [
             {
                 "note": "OSI Page",
@@ -36,12 +31,7 @@
     },
     {
         "id": "LGPL-2.1",
-        "identifiers": [
-            {
-                "identifier": "LGPL-2.1",
-                "scheme": "SPDX"
-            }
-        ],
+        "identifiers": [],
         "links": [
             {
                 "note": "OSI Page",

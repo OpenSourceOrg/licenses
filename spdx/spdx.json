@@ -1,0 +1,686 @@
+[
+    {
+        "id": "AFL-3.0",
+        "identifiers": [
+            {
+                "identifier": "AFL-3.0",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "APL-1.0",
+        "identifiers": [
+            {
+                "identifier": "APL-1.0",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "Apache-1.1",
+        "identifiers": [
+            {
+                "identifier": "Apache-1.1",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "Apache-2.0",
+        "identifiers": [
+            {
+                "identifier": "Apache-2.0",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "APSL-2.0",
+        "identifiers": [
+            {
+                "identifier": "APSL-2.0",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "Artistic-1.0",
+        "identifiers": [
+            {
+                "identifier": "Artistic-1.0",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "Artistic-2.0",
+        "identifiers": [
+            {
+                "identifier": "Artistic-2.0",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "AAL",
+        "identifiers": [
+            {
+                "identifier": "AAL",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "BSL-1.0",
+        "identifiers": [
+            {
+                "identifier": "BSL-1.0",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "CNRI-Python",
+        "identifiers": [
+            {
+                "identifier": "CNRI-Python",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "CDDL-1.0",
+        "identifiers": [
+            {
+                "identifier": "CDDL-1.0",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "CPAL-1.0",
+        "identifiers": [
+            {
+                "identifier": "CPAL-1.0",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "CPL-1.0",
+        "identifiers": [
+            {
+                "identifier": "CPL-1.0",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "CATOSL-1.1",
+        "identifiers": [
+            {
+                "identifier": "CATOSL-1.1",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "CUA-OPL-1.0",
+        "identifiers": [
+            {
+                "identifier": "CUA-OPL-1.0",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "EPL-1.0",
+        "identifiers": [
+            {
+                "identifier": "EPL-1.0",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "ECL-1.0",
+        "identifiers": [
+            {
+                "identifier": "ECL-1.0",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "ECL-2.0",
+        "identifiers": [
+            {
+                "identifier": "ECL-2.0",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "EFL-1.0",
+        "identifiers": [
+            {
+                "identifier": "EFL-1.0",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "EFL-2.0",
+        "identifiers": [
+            {
+                "identifier": "EFL-2.0",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "Entessa",
+        "identifiers": [
+            {
+                "identifier": "Entessa",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "EUDatagrid",
+        "identifiers": [
+            {
+                "identifier": "EUDatagrid",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "EUPL-1.1",
+        "identifiers": [
+            {
+                "identifier": "EUPL-1.1",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "Fair",
+        "identifiers": [
+            {
+                "identifier": "Fair",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "Frameworx-1.0",
+        "identifiers": [
+            {
+                "identifier": "Frameworx-1.0",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "AGPL-3.0",
+        "identifiers": [
+            {
+                "identifier": "AGPL-3.0",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "GPL-2.0",
+        "identifiers": [
+            {
+                "identifier": "GPL-2.0",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "GPL-3.0",
+        "identifiers": [
+            {
+                "identifier": "GPL-3.0",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "LGPL-2.1",
+        "identifiers": [
+            {
+                "identifier": "LGPL-2.1",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "LGPL-3.0",
+        "identifiers": [
+            {
+                "identifier": "LGPL-3.0",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "HPND",
+        "identifiers": [
+            {
+                "identifier": "HPND",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "IPL-1.0",
+        "identifiers": [
+            {
+                "identifier": "IPL-1.0",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "Intel",
+        "identifiers": [
+            {
+                "identifier": "Intel",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "IPA",
+        "identifiers": [
+            {
+                "identifier": "IPA",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "ISC",
+        "identifiers": [
+            {
+                "identifier": "ISC",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "LPPL-1.3c",
+        "identifiers": [
+            {
+                "identifier": "LPPL-1.3c",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "LPL-1.02",
+        "identifiers": [
+            {
+                "identifier": "LPL-1.02",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "LPL-1.0",
+        "identifiers": [
+            {
+                "identifier": "LPL-1.0",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "MS-PL",
+        "identifiers": [
+            {
+                "identifier": "MS-PL",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "MS-RL",
+        "identifiers": [
+            {
+                "identifier": "MS-RL",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "MirOS",
+        "identifiers": [
+            {
+                "identifier": "MirOS",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "Motosoto",
+        "identifiers": [
+            {
+                "identifier": "Motosoto",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "MPL-1.0",
+        "identifiers": [
+            {
+                "identifier": "MPL-1.0",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "MPL-1.1",
+        "identifiers": [
+            {
+                "identifier": "MPL-1.1",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "MPL-2.0",
+        "identifiers": [
+            {
+                "identifier": "MPL-2.0",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "Multics",
+        "identifiers": [
+            {
+                "identifier": "Multics",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "NASA-1.3",
+        "identifiers": [
+            {
+                "identifier": "NASA-1.3",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "Naumen",
+        "identifiers": [
+            {
+                "identifier": "Naumen",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "NGPL",
+        "identifiers": [
+            {
+                "identifier": "NGPL",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "Nokia",
+        "identifiers": [
+            {
+                "identifier": "Nokia",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "NPOSL-3.0",
+        "identifiers": [
+            {
+                "identifier": "NPOSL-3.0",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "NTP",
+        "identifiers": [
+            {
+                "identifier": "NTP",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "OCLC-2.0",
+        "identifiers": [
+            {
+                "identifier": "OCLC-2.0",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "OGTSL",
+        "identifiers": [
+            {
+                "identifier": "OGTSL",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "OSL-1.0",
+        "identifiers": [
+            {
+                "identifier": "OSL-1.0",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "OSL-2.1",
+        "identifiers": [
+            {
+                "identifier": "OSL-2.1",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "OSL-3.0",
+        "identifiers": [
+            {
+                "identifier": "OSL-3.0",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "PHP-3.0",
+        "identifiers": [
+            {
+                "identifier": "PHP-3.0",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "PostgreSQL",
+        "identifiers": [
+            {
+                "identifier": "PostgreSQL",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "Python-2.0",
+        "identifiers": [
+            {
+                "identifier": "Python-2.0",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "QPL-1.0",
+        "identifiers": [
+            {
+                "identifier": "QPL-1.0",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "RPSL-1.0",
+        "identifiers": [
+            {
+                "identifier": "RPSL-1.0",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "RPL-1.1",
+        "identifiers": [
+            {
+                "identifier": "RPL-1.1",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "RPL-1.5",
+        "identifiers": [
+            {
+                "identifier": "RPL-1.5",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "RSCPL",
+        "identifiers": [
+            {
+                "identifier": "RSCPL",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "OFL-1.1",
+        "identifiers": [
+            {
+                "identifier": "OFL-1.1",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "Sleepycat",
+        "identifiers": [
+            {
+                "identifier": "Sleepycat",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "SISSL",
+        "identifiers": [
+            {
+                "identifier": "SISSL",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "SPL-1.0",
+        "identifiers": [
+            {
+                "identifier": "SPL-1.0",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "Watcom-1.0",
+        "identifiers": [
+            {
+                "identifier": "Watcom-1.0",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "NCSA",
+        "identifiers": [
+            {
+                "identifier": "NCSA",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "VSL-1.0",
+        "identifiers": [
+            {
+                "identifier": "VSL-1.0",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "W3C",
+        "identifiers": [
+            {
+                "identifier": "W3C",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "Xnet",
+        "identifiers": [
+            {
+                "identifier": "Xnet",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "Zlib",
+        "identifiers": [
+            {
+                "identifier": "Zlib",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "ZPL-2.0",
+        "identifiers": [
+            {
+                "identifier": "ZPL-2.0",
+                "scheme": "SPDX"
+            }
+        ]
+    }
+]

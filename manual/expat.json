@@ -3,10 +3,6 @@
         "id": "Expat",
         "identifiers": [
             {
-                "identifier": "MIT",
-                "scheme": "SPDX"
-            },
-            {
                 "identifier": "Expat",
                 "scheme": "DEP5"
             }

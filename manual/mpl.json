@@ -1,12 +1,7 @@
 [
     {
         "id": "MPL-2.0",
-        "identifiers": [
-            {
-                "identifier": "MPL-2.0",
-                "scheme": "SPDX"
-            }
-        ],
+        "identifiers": [],
         "links": [
             {
                 "note": "OSI Page",

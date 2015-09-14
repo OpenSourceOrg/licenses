@@ -1,12 +1,7 @@
 [
     {
         "id": "BSD-2",
-        "identifiers": [
-            {
-                "identifier": "BSD-2-Clause",
-                "scheme": "SPDX"
-            }
-        ],
+        "identifiers": [],
         "links": [
             {
                 "note": "OSI Page",
@@ -40,12 +35,7 @@
     },
     {
         "id": "BSD-3",
-        "identifiers": [
-            {
-                "identifier": "BSD-3-Clause",
-                "scheme": "SPDX"
-            }
-        ],
+        "identifiers": [],
         "links": [
             {
                 "note": "OSI Page",
@@ -83,12 +73,7 @@
     },
     {
         "id": "BSD-4",
-        "identifiers": [
-            {
-                "identifier": "BSD-4-Clause",
-                "scheme": "SPDX"
-            }
-        ],
+        "identifiers": [],
         "links": [
             {
                 "note": "OSI Page",

@@ -1,12 +1,7 @@
 [
     {
         "id": "GPL-3.0",
-        "identifiers": [
-            {
-                "identifier": "GPL-3.0",
-                "scheme": "SPDX"
-            }
-        ],
+        "identifiers": [],
         "links": [
             {
                 "note": "OSI Page",
@@ -36,12 +31,7 @@
     },
     {
         "id": "GPL-2.0",
-        "identifiers": [
-            {
-                "identifier": "GPL-2.0",
-                "scheme": "SPDX"
-            }
-        ],
+        "identifiers": [],
         "links": [
             {
                 "note": "OSI Page",

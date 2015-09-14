@@ -1,0 +1,72 @@
+[
+    {
+        "id": "LGPL-3.0",
+        "identifiers": [
+            {
+                "identifier": "LGPL-3.0",
+                "scheme": "SPDX"
+            }
+        ],
+        "links": [
+            {
+                "note": "OSI Page",
+                "url": "http://opensource.org/licenses/LGPL-3.0"
+            }
+        ],
+        "name": "GNU Lesser General Public License, Version 3.0",
+        "superseded_by": null,
+        "tags": [
+            "osi-approved",
+            "dfsg-free",
+            "popular",
+            "copyleft"
+        ],
+        "text": [
+            {
+                "content_type": "text/plain",
+                "name": "Plain Text",
+                "url": "https://www.gnu.org/licenses/lgpl-3.0.txt"
+            },
+            {
+                "content_type": "text/html",
+                "name": "HTML",
+                "url": "https://www.gnu.org/licenses/lgpl-3.0-standalone.html"
+            }
+        ]
+    },
+    {
+        "id": "LGPL-2.1",
+        "identifiers": [
+            {
+                "identifier": "LGPL-2.1",
+                "scheme": "SPDX"
+            }
+        ],
+        "links": [
+            {
+                "note": "OSI Page",
+                "url": "http://opensource.org/licenses/LGPL-2.1"
+            }
+        ],
+        "name": "GNU Lesser General Public License, Version 2.1",
+        "superseded_by": "LGPL-3.0",
+        "tags": [
+            "osi-approved",
+            "dfsg-free",
+            "popular",
+            "copyleft"
+        ],
+        "text": [
+            {
+                "content_type": "text/plain",
+                "name": "Plain Text",
+                "url": "https://www.gnu.org/licenses/lgpl-2.1.txt"
+            },
+            {
+                "content_type": "text/html",
+                "name": "HTML",
+                "url": "https://www.gnu.org/licenses/lgpl-2.1-standalone.html"
+            }
+        ]
+    }
+]

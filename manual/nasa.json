@@ -1,0 +1,23 @@
+[
+    {
+        "id": "NASA-1.3",
+        "links": [
+            {
+                "note": "OSI Page",
+                "url": "http://opensource.org/licenses/NASA-1.3"
+            }
+        ],
+        "name": "NASA Open Source Agreement, Version 1.3",
+        "tags": [
+            "osi-approved",
+            "special-purpose"
+        ],
+        "text": [
+            {
+                "content_type": "text/html",
+                "name": "HTML",
+                "url": "http://opensource.org/licenses/NASA-1.3"
+            }
+        ]
+    }
+]

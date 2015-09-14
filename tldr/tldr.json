@@ -1,0 +1,38 @@
+[
+    {
+        "id": "GPL-3.0",
+        "links": [
+            {
+                "note": "tl;dr legal",
+                "url": "https://tldrlegal.com/license/gnu-general-public-license-v3-%28gpl-3%29"
+            }
+        ]
+    },
+    {
+        "id": "GPL-2.0",
+        "links": [
+            {
+                "note": "tl;dr legal",
+                "url": "https://tldrlegal.com/license/gnu-general-public-license-v2"
+            }
+        ]
+    },
+    {
+        "id": "Apache-2.0",
+        "links": [
+            {
+                "note": "tl;dr legal",
+                "url": "https://tldrlegal.com/license/apache-license-2.0-%28apache-2.0%29"
+            }
+        ]
+    },
+    {
+        "id": "Expat",
+        "links": [
+            {
+                "note": "tl;dr legal",
+                "url": "https://tldrlegal.com/license/mit-license"
+            }
+        ]
+    }
+]

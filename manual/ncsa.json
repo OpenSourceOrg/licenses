@@ -1,0 +1,24 @@
+[
+    {
+        "id": "NCSA",
+        "links": [
+            {
+                "note": "OSI Page",
+                "url": "http://opensource.org/licenses/NCSA"
+            }
+        ],
+        "name": "The University of Illinois/NCSA Open Source License",
+        "tags": [
+            "osi-approved",
+            "discouraged",
+            "redundant"
+        ],
+        "text": [
+            {
+                "content_type": "text/html",
+                "name": "HTML",
+                "url": "http://opensource.org/licenses/NCSA"
+            }
+        ]
+    }
+]

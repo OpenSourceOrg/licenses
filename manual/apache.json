@@ -1,0 +1,55 @@
+[
+    {
+        "id": "Apache-2.0",
+        "identifiers": [
+            {
+                "identifier": "Apache-2.0",
+                "scheme": "SPDX"
+            }
+        ],
+        "links": [
+            {
+                "note": "OSI Page",
+                "url": "http://opensource.org/licenses/Apache-2.0"
+            }
+        ],
+        "name": "Apache License, Version 2.0",
+        "superseded_by": null,
+        "tags": [
+            "osi-approved",
+            "dfsg-free",
+            "popular",
+            "permissive"
+        ],
+        "text": [
+            {
+                "content_type": "text/html",
+                "name": "HTML",
+                "url": "http://www.apache.org/licenses/LICENSE-2.0"
+            }
+        ]
+    },
+    {
+        "id": "Apache-1.1",
+        "links": [
+            {
+                "note": "OSI Page",
+                "url": "http://opensource.org/licenses/Apache-1.1"
+            }
+        ],
+        "name": "Apache Software License, Version 1.1",
+        "superseded_by": "Apache-2.0",
+        "tags": [
+            "discouraged",
+            "obsolete",
+            "osi-approved"
+        ],
+        "text": [
+            {
+                "content_type": "text/html",
+                "name": "HTML",
+                "url": "http://opensource.org/licenses/Apache-1.1"
+            }
+        ]
+    }
+]

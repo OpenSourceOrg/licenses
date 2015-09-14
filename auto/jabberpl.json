@@ -1,0 +1,24 @@
+[
+    {
+        "id": "jabberpl",
+        "links": [
+            {
+                "note": "OSI Page",
+                "url": "http://opensource.org/licenses/jabberpl"
+            }
+        ],
+        "name": "Jabber Open Source License",
+        "tags": [
+            "discouraged",
+            "retired",
+            "osi-approved"
+        ],
+        "text": [
+            {
+                "content_type": "text/html",
+                "name": "HTML",
+                "url": "http://opensource.org/licenses/jabberpl"
+            }
+        ]
+    }
+]

@@ -1,0 +1,24 @@
+[
+    {
+        "id": "PostgreSQL",
+        "links": [
+            {
+                "note": "OSI Page",
+                "url": "http://opensource.org/licenses/PostgreSQL"
+            }
+        ],
+        "name": "The PostgreSQL Licence",
+        "tags": [
+            "osi-approved",
+            "discouraged",
+            "redundant"
+        ],
+        "text": [
+            {
+                "content_type": "text/html",
+                "name": "HTML",
+                "url": "http://opensource.org/licenses/PostgreSQL"
+            }
+        ]
+    }
+]

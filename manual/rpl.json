@@ -1,0 +1,45 @@
+[
+    {
+        "id": "RPL-1.1",
+        "links": [
+            {
+                "note": "OSI Page",
+                "url": "http://opensource.org/licenses/RPL-1.1"
+            }
+        ],
+        "name": "Reciprocal Public License, Version 1.1",
+        "superseded_by": "RPL-1.5",
+        "tags": [
+            "discouraged",
+            "obsolete",
+            "osi-approved"
+        ],
+        "text": [
+            {
+                "content_type": "text/html",
+                "name": "HTML",
+                "url": "http://opensource.org/licenses/RPL-1.1"
+            }
+        ]
+    },
+    {
+        "id": "RPL-1.5",
+        "links": [
+            {
+                "note": "OSI Page",
+                "url": "http://opensource.org/licenses/RPL-1.5"
+            }
+        ],
+        "name": "Reciprocal Public License, Version 1.5",
+        "tags": [
+            "osi-approved"
+        ],
+        "text": [
+            {
+                "content_type": "text/html",
+                "name": "HTML",
+                "url": "http://opensource.org/licenses/RPL-1.5"
+            }
+        ]
+    }
+]

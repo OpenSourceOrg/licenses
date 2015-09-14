@@ -1,0 +1,24 @@
+[
+    {
+        "id": "Sleepycat",
+        "links": [
+            {
+                "note": "OSI Page",
+                "url": "http://opensource.org/licenses/Sleepycat"
+            }
+        ],
+        "name": "The Sleepycat License",
+        "tags": [
+            "discouraged",
+            "non-reusable",
+            "osi-approved"
+        ],
+        "text": [
+            {
+                "content_type": "text/html",
+                "name": "HTML",
+                "url": "http://opensource.org/licenses/Sleepycat"
+            }
+        ]
+    }
+]

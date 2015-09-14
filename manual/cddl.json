@@ -1,0 +1,32 @@
+[
+    {
+        "id": "CDDL-1.0",
+        "identifiers": [
+            {
+                "identifier": "CDDL-1.0",
+                "scheme": "SPDX"
+            }
+        ],
+        "links": [
+            {
+                "note": "OSI Page",
+                "url": "http://opensource.org/licenses/CDDL-1.0"
+            }
+        ],
+        "name": "Common Development and Distribution License, Version 1.0",
+        "other_names": [],
+        "superseded_by": null,
+        "tags": [
+            "osi-approved",
+            "dfsg-free",
+            "popular"
+        ],
+        "text": [
+            {
+                "content_type": "text/html",
+                "name": "HTML",
+                "url": "http://opensource.org/licenses/CDDL-1.0"
+            }
+        ]
+    }
+]

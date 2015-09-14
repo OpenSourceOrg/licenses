@@ -1,0 +1,406 @@
+[
+    {
+        "id": "UPL",
+        "links": []
+    },
+    {
+        "id": "jabberpl",
+        "links": []
+    },
+    {
+        "id": "RPL-1.5",
+        "links": []
+    },
+    {
+        "id": "EPL-1.0",
+        "links": [
+            {
+                "note": "Wikipedia page",
+                "url": "https://en.wikipedia.org/wiki/Eclipse_Public_License"
+            }
+        ]
+    },
+    {
+        "id": "NTP",
+        "links": []
+    },
+    {
+        "id": "Artistic-2.0",
+        "links": []
+    },
+    {
+        "id": "AAL",
+        "links": []
+    },
+    {
+        "id": "WXwindows",
+        "links": []
+    },
+    {
+        "id": "Watcom-1.0",
+        "links": []
+    },
+    {
+        "id": "OSL-1.0",
+        "links": []
+    },
+    {
+        "id": "APSL-2.0",
+        "links": []
+    },
+    {
+        "id": "Fair",
+        "links": []
+    },
+    {
+        "id": "Sleepycat",
+        "links": []
+    },
+    {
+        "id": "Apache-1.1",
+        "links": []
+    },
+    {
+        "id": "EFL-2.0",
+        "links": []
+    },
+    {
+        "id": "Python-2.0",
+        "links": []
+    },
+    {
+        "id": "AFL-3.0",
+        "links": []
+    },
+    {
+        "id": "EUDatagrid",
+        "links": []
+    },
+    {
+        "id": "QPL-1.0",
+        "links": []
+    },
+    {
+        "id": "PostgreSQL",
+        "links": []
+    },
+    {
+        "id": "RPL-1.1",
+        "links": []
+    },
+    {
+        "id": "OFL-1.1",
+        "links": []
+    },
+    {
+        "id": "BSD-2",
+        "links": [
+            {
+                "note": "Wikipedia Page",
+                "url": "https://en.wikipedia.org/wiki/BSD_licenses#2-clause"
+            }
+        ]
+    },
+    {
+        "id": "LGPL-3.0",
+        "links": [
+            {
+                "note": "Wikipedia page",
+                "url": "https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License"
+            }
+        ]
+    },
+    {
+        "id": "Naumen",
+        "links": []
+    },
+    {
+        "id": "BSD-3",
+        "links": [
+            {
+                "note": "Wikipedia Page",
+                "url": "https://en.wikipedia.org/wiki/BSD_licenses#3-clause"
+            }
+        ]
+    },
+    {
+        "id": "CPAL-1.0",
+        "links": []
+    },
+    {
+        "id": "MS-RL",
+        "links": []
+    },
+    {
+        "id": "Entessa",
+        "links": []
+    },
+    {
+        "id": "MirOS",
+        "links": []
+    },
+    {
+        "id": "Xnet",
+        "links": []
+    },
+    {
+        "id": "MPL-1.0",
+        "links": []
+    },
+    {
+        "id": "NGPL",
+        "links": []
+    },
+    {
+        "id": "ECL-2.0",
+        "links": []
+    },
+    {
+        "id": "Simple-2.0",
+        "links": []
+    },
+    {
+        "id": "CPL-1.0",
+        "links": []
+    },
+    {
+        "id": "EFL-1.0",
+        "links": []
+    },
+    {
+        "id": "NASA-1.3",
+        "links": []
+    },
+    {
+        "id": "SPL-1.0",
+        "links": []
+    },
+    {
+        "id": "RSCPL",
+        "links": []
+    },
+    {
+        "id": "CDDL-1.0",
+        "links": [
+            {
+                "note": "Wikipedia page",
+                "url": "https://en.wikipedia.org/wiki/Common_Development_and_Distribution_License"
+            }
+        ]
+    },
+    {
+        "id": "IPL-1.0",
+        "links": []
+    },
+    {
+        "id": "VSL-1.0",
+        "links": []
+    },
+    {
+        "id": "SISSL",
+        "links": []
+    },
+    {
+        "id": "OSL-2.1",
+        "links": []
+    },
+    {
+        "id": "Artistic-1.0",
+        "links": []
+    },
+    {
+        "id": "LPL-1.02",
+        "links": []
+    },
+    {
+        "id": "CVW",
+        "links": []
+    },
+    {
+        "id": "NCSA",
+        "links": []
+    },
+    {
+        "id": "ECL-1.0",
+        "links": []
+    },
+    {
+        "id": "BSD-4",
+        "links": [
+            {
+                "note": "Wikipedia Page",
+                "url": "https://en.wikipedia.org/wiki/BSD_licenses#4-clause"
+            }
+        ]
+    },
+    {
+        "id": "EUPL-1.1",
+        "links": []
+    },
+    {
+        "id": "Motosoto",
+        "links": []
+    },
+    {
+        "id": "GPL-2.0",
+        "links": [
+            {
+                "note": "Wikipedia page",
+                "url": "https://en.wikipedia.org/wiki/GNU_General_Public_License"
+            }
+        ]
+    },
+    {
+        "id": "HPND",
+        "links": []
+    },
+    {
+        "id": "ISC",
+        "links": []
+    },
+    {
+        "id": "Zlib",
+        "links": []
+    },
+    {
+        "id": "Intel",
+        "links": []
+    },
+    {
+        "id": "BSL-1.0",
+        "links": []
+    },
+    {
+        "id": "MS-PL",
+        "links": []
+    },
+    {
+        "id": "Frameworx-1.0",
+        "links": []
+    },
+    {
+        "id": "CATOSL-1.1",
+        "links": []
+    },
+    {
+        "id": "Nokia",
+        "links": []
+    },
+    {
+        "id": "MPL-1.1",
+        "links": []
+    },
+    {
+        "id": "LPL-1.0",
+        "links": []
+    },
+    {
+        "id": "GPL-3.0",
+        "links": [
+            {
+                "note": "Wikipedia page",
+                "url": "https://en.wikipedia.org/wiki/GNU_General_Public_License"
+            }
+        ]
+    },
+    {
+        "id": "CUA-OPL-1.0",
+        "links": []
+    },
+    {
+        "id": "LPPL-1.3c",
+        "links": []
+    },
+    {
+        "id": "OGTSL",
+        "links": []
+    },
+    {
+        "id": "RPSL-1.0",
+        "links": []
+    },
+    {
+        "id": "CNRI-Python",
+        "links": []
+    },
+    {
+        "id": "APL-1.0",
+        "links": []
+    },
+    {
+        "id": "NPOSL-3.0",
+        "links": []
+    },
+    {
+        "id": "ZPL-2.0",
+        "links": []
+    },
+    {
+        "id": "MPL-2.0",
+        "links": [
+            {
+                "note": "Wikipedia page",
+                "url": "https://en.wikipedia.org/wiki/MPL_License"
+            }
+        ]
+    },
+    {
+        "id": "AGPL-3.0",
+        "links": []
+    },
+    {
+        "id": "W3C",
+        "links": []
+    },
+    {
+        "id": "OCLC-2.0",
+        "links": []
+    },
+    {
+        "id": "Multics",
+        "links": []
+    },
+    {
+        "id": "LGPL-2.1",
+        "links": [
+            {
+                "note": "Wikipedia page",
+                "url": "https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License"
+            }
+        ]
+    },
+    {
+        "id": "Expat",
+        "links": [
+            {
+                "note": "Wikipedia page",
+                "url": "https://en.wikipedia.org/wiki/MIT_License"
+            }
+        ]
+    },
+    {
+        "id": "OSL-3.0",
+        "links": []
+    },
+    {
+        "id": "Apache-2.0",
+        "links": [
+            {
+                "note": "Wikipedia page",
+                "url": "https://en.wikipedia.org/wiki/Apache_License"
+            }
+        ]
+    },
+    {
+        "id": "PHP-3.0",
+        "links": []
+    },
+    {
+        "id": "CECILL-2.1",
+        "links": []
+    },
+    {
+        "id": "IPA",
+        "links": []
+    }
+]

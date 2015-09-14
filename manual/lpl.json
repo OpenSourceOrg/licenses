@@ -1,0 +1,47 @@
+[
+    {
+        "id": "LPL-1.02",
+        "links": [
+            {
+                "note": "OSI Page",
+                "url": "http://opensource.org/licenses/LPL-1.02"
+            }
+        ],
+        "name": "Lucent Public License, Version 1.02",
+        "tags": [
+            "osi-approved",
+            "discouraged",
+            "redundant"
+        ],
+        "text": [
+            {
+                "content_type": "text/html",
+                "name": "HTML",
+                "url": "http://opensource.org/licenses/LPL-1.02"
+            }
+        ]
+    },
+    {
+        "id": "LPL-1.0",
+        "links": [
+            {
+                "note": "OSI Page",
+                "url": "http://opensource.org/licenses/LPL-1.0"
+            }
+        ],
+        "name": "Lucent Public License, Plan 9, Version 1.0",
+        "superseded_by": "LPL-1.02",
+        "tags": [
+            "osi-approved",
+            "discouraged",
+            "obsolete"
+        ],
+        "text": [
+            {
+                "content_type": "text/html",
+                "name": "HTML",
+                "url": "http://opensource.org/licenses/LPL-1.0"
+            }
+        ]
+    }
+]

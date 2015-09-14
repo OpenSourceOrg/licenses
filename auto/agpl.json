@@ -1,0 +1,22 @@
+[
+    {
+        "id": "AGPL-3.0",
+        "links": [
+            {
+                "note": "OSI Page",
+                "url": "http://opensource.org/licenses/AGPL-3.0"
+            }
+        ],
+        "name": "GNU AFFERO GENERAL PUBLIC LICENSE, Version 3 (AGPL-3.0)",
+        "tags": [
+            "osi-approved"
+        ],
+        "text": [
+            {
+                "content_type": "text/html",
+                "name": "HTML",
+                "url": "http://opensource.org/licenses/AGPL-3.0"
+            }
+        ]
+    }
+]

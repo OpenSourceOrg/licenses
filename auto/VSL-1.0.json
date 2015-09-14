@@ -1,0 +1,24 @@
+[
+    {
+        "id": "VSL-1.0",
+        "links": [
+            {
+                "note": "OSI Page",
+                "url": "http://opensource.org/licenses/VSL-1.0"
+            }
+        ],
+        "name": "The Vovida Software License, Version 1.0",
+        "tags": [
+            "discouraged",
+            "non-reusable",
+            "osi-approved"
+        ],
+        "text": [
+            {
+                "content_type": "text/html",
+                "name": "HTML",
+                "url": "http://opensource.org/licenses/VSL-1.0"
+            }
+        ]
+    }
+]

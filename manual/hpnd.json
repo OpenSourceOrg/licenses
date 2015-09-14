@@ -1,0 +1,24 @@
+[
+    {
+        "id": "HPND",
+        "links": [
+            {
+                "note": "OSI Page",
+                "url": "http://opensource.org/licenses/HPND"
+            }
+        ],
+        "name": "Historical Permission Notice and Disclaimer",
+        "tags": [
+            "osi-approved",
+            "discouraged",
+            "redundant"
+        ],
+        "text": [
+            {
+                "content_type": "text/html",
+                "name": "HTML",
+                "url": "http://opensource.org/licenses/HPND"
+            }
+        ]
+    }
+]

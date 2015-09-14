@@ -1,0 +1,22 @@
+[
+    {
+        "id": "EUPL-1.1",
+        "links": [
+            {
+                "note": "OSI Page",
+                "url": "http://opensource.org/licenses/EUPL-1.1"
+            }
+        ],
+        "name": "European Union Public License, Version 1.1",
+        "tags": [
+            "osi-approved"
+        ],
+        "text": [
+            {
+                "content_type": "text/html",
+                "name": "HTML",
+                "url": "http://opensource.org/licenses/EUPL-1.1"
+            }
+        ]
+    }
+]

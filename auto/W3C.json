@@ -1,0 +1,24 @@
+[
+    {
+        "id": "W3C",
+        "links": [
+            {
+                "note": "OSI Page",
+                "url": "http://opensource.org/licenses/W3C"
+            }
+        ],
+        "name": "The W3C Software Notice and License",
+        "tags": [
+            "discouraged",
+            "non-reusable",
+            "osi-approved"
+        ],
+        "text": [
+            {
+                "content_type": "text/html",
+                "name": "HTML",
+                "url": "http://opensource.org/licenses/W3C"
+            }
+        ]
+    }
+]

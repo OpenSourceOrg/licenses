@@ -1,0 +1,42 @@
+[
+    {
+        "id": "MS-PL",
+        "links": [
+            {
+                "note": "OSI Page",
+                "url": "http://opensource.org/licenses/MS-PL"
+            }
+        ],
+        "name": "Microsoft Public License (MS-PL)",
+        "tags": [
+            "osi-approved"
+        ],
+        "text": [
+            {
+                "content_type": "text/html",
+                "name": "HTML",
+                "url": "http://opensource.org/licenses/MS-PL"
+            }
+        ]
+    },
+    {
+        "id": "MS-RL",
+        "links": [
+            {
+                "note": "OSI Page",
+                "url": "http://opensource.org/licenses/MS-RL"
+            }
+        ],
+        "name": "Microsoft Reciprocal License (MS-RL)",
+        "tags": [
+            "osi-approved"
+        ],
+        "text": [
+            {
+                "content_type": "text/html",
+                "name": "HTML",
+                "url": "http://opensource.org/licenses/MS-RL"
+            }
+        ]
+    }
+]

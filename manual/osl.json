@@ -1,0 +1,70 @@
+[
+    {
+        "id": "OSL-1.0",
+        "links": [
+            {
+                "note": "OSI Page",
+                "url": "http://opensource.org/licenses/OSL-1.0"
+            }
+        ],
+        "name": "Open Software License, Version 1.0",
+        "superseded_by": "OLS-3.0",
+        "tags": [
+            "osi-approved",
+            "discouraged",
+            "redundant"
+        ],
+        "text": [
+            {
+                "content_type": "text/html",
+                "name": "HTML",
+                "url": "http://opensource.org/licenses/OSL-1.0"
+            }
+        ]
+    },
+    {
+        "id": "OSL-2.1",
+        "links": [
+            {
+                "note": "OSI Page",
+                "url": "http://opensource.org/licenses/OSL-2.1"
+            }
+        ],
+        "name": "Open Software License, Version 2.1",
+        "superseded_by": "OLS-3.0",
+        "tags": [
+            "osi-approved",
+            "discouraged",
+            "redundant"
+        ],
+        "text": [
+            {
+                "content_type": "text/html",
+                "name": "HTML",
+                "url": "http://opensource.org/licenses/OSL-2.1"
+            }
+        ]
+    },
+    {
+        "id": "OSL-3.0",
+        "links": [
+            {
+                "note": "OSI Page",
+                "url": "http://opensource.org/licenses/OSL-3.0"
+            }
+        ],
+        "name": "Open Software License, Version 3.0",
+        "superseded_by": null,
+        "tags": [
+            "osi-approved",
+            "miscellaneous"
+        ],
+        "text": [
+            {
+                "content_type": "text/html",
+                "name": "HTML",
+                "url": "http://opensource.org/licenses/OSL-3.0"
+            }
+        ]
+    }
+]

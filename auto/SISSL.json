@@ -1,0 +1,24 @@
+[
+    {
+        "id": "SISSL",
+        "links": [
+            {
+                "note": "OSI Page",
+                "url": "http://opensource.org/licenses/SISSL"
+            }
+        ],
+        "name": "Sun Industry Standards Source License",
+        "tags": [
+            "discouraged",
+            "retired",
+            "osi-approved"
+        ],
+        "text": [
+            {
+                "content_type": "text/html",
+                "name": "HTML",
+                "url": "http://opensource.org/licenses/SISSL"
+            }
+        ]
+    }
+]

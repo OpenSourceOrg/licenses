@@ -1,0 +1,24 @@
+[
+    {
+        "id": "Multics",
+        "links": [
+            {
+                "note": "OSI Page",
+                "url": "http://opensource.org/licenses/Multics"
+            }
+        ],
+        "name": "Multics License",
+        "tags": [
+            "discouraged",
+            "non-reusable",
+            "osi-approved"
+        ],
+        "text": [
+            {
+                "content_type": "text/html",
+                "name": "HTML",
+                "url": "http://opensource.org/licenses/Multics"
+            }
+        ]
+    }
+]

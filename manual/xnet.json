@@ -1,0 +1,24 @@
+[
+    {
+        "id": "Xnet",
+        "links": [
+            {
+                "note": "OSI Page",
+                "url": "http://opensource.org/licenses/Xnet"
+            }
+        ],
+        "name": "The X.Net, Inc. License",
+        "tags": [
+            "osi-approved",
+            "discouraged",
+            "redundant"
+        ],
+        "text": [
+            {
+                "content_type": "text/html",
+                "name": "HTML",
+                "url": "http://opensource.org/licenses/Xnet"
+            }
+        ]
+    }
+]

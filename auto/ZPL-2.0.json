@@ -1,0 +1,24 @@
+[
+    {
+        "id": "ZPL-2.0",
+        "links": [
+            {
+                "note": "OSI Page",
+                "url": "http://opensource.org/licenses/ZPL-2.0"
+            }
+        ],
+        "name": "The Zope Public License, Version 2.0",
+        "tags": [
+            "discouraged",
+            "non-reusable",
+            "osi-approved"
+        ],
+        "text": [
+            {
+                "content_type": "text/html",
+                "name": "HTML",
+                "url": "http://opensource.org/licenses/ZPL-2.0"
+            }
+        ]
+    }
+]

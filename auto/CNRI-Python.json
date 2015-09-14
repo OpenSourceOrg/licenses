@@ -1,0 +1,24 @@
+[
+    {
+        "id": "CNRI-Python",
+        "links": [
+            {
+                "note": "OSI Page",
+                "url": "http://opensource.org/licenses/CNRI-Python"
+            }
+        ],
+        "name": "CNRI portion of the multi-part Python License",
+        "tags": [
+            "discouraged",
+            "non-reusable",
+            "osi-approved"
+        ],
+        "text": [
+            {
+                "content_type": "text/html",
+                "name": "HTML",
+                "url": "http://opensource.org/licenses/CNRI-Python"
+            }
+        ]
+    }
+]

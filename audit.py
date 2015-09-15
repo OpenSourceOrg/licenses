@@ -20,6 +20,17 @@ import json
 from collections import defaultdict
 
 
+def audit_tags(licenses):
+    total = len(licenses)
+    tags = defaultdict(lambda: 0)
+    for license in licenses:
+        for tag in license.get('tags', []):
+            tags[tag] += 1
+
+    return [{"tag": tag, "count": count, "percent": count/total*100,
+             "fatal": False} for (tag, count) in tags.items()]
+
+
 def audit_identifiers(licenses):
     total = len(licenses)
     schemes = defaultdict(lambda: 0)
@@ -27,7 +38,7 @@ def audit_identifiers(licenses):
         for identifier in license.get('identifiers', []):
             schemes[identifier['scheme']] += 1
 
-    return [{"scheme": scheme, "count": count, "percent": count/total,
+    return [{"scheme": scheme, "count": count, "percent": count/total*100,
              "fatal": False} for (scheme, count) in schemes.items()]
 
 
@@ -67,15 +78,18 @@ def has_error(report):
     return False
 
 
-def audit(path='licenses.json'):
+def audit(path='licenses.json', exit=True):
     with open(path, 'r') as fd:
         licenses = json.load(fd)
     report = {"identifiers": audit_identifiers(licenses),
+              "tags": audit_tags(licenses),
               "names": audit_names(licenses),
               "full_text": audit_full_text(licenses)}
-    json.dump(report, sys.stdout, indent=4, sort_keys=True)
-    if has_error(report):
+    if exit and has_error(report):
+        json.dump(report, sys.stdout, indent=4, sort_keys=True)
         sys.exit(1)
+    return report
 
 
-audit(*sys.argv[1:])
+if __name__ == "__main__":
+    audit(*sys.argv[1:])

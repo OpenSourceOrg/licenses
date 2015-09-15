@@ -18,6 +18,7 @@ import os.path
 import sys
 import json
 import validictory
+import audit
 
 if sys.version_info < (3,):
     print("This program is Python 3 only")
@@ -106,6 +107,19 @@ def load_licenses(path="./licenses", output="licenses.json"):
     with open(output, 'w') as fd:
         json.dump(data, fd)
     print("{len} records written out".format(len=len(data)))
+
+    # Now, let's audit it
+    report = audit.audit(path=output, exit=False)
+
+    for identifier in report['identifiers']:
+        print(" {count:03d} licenses contain scheme {scheme} ({percent:1f}%)".format(
+            **identifier
+        ))
+
+    for tag in report['tags']:
+        print(" {count:03d} licenses contain tag {tag} ({percent:1f}%)".format(
+            **tag
+        ))
 
 
 if __name__ == "__main__":

@@ -36,4 +36,5 @@ def upload(s3_bucket, s3_path, filename):
 
 
 if __name__ == "__main__":
+    print("Uploading to licenses/licenses.json...")
     upload("api.opensource.org", "licenses/licenses.json", *sys.argv[1:])

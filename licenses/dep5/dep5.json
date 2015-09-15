@@ -1,0 +1,200 @@
+[
+    {
+        "id": "Apache-2.0",
+        "identifiers": [
+            {
+                "identifier": "Apache-2.0",
+                "scheme": "DEP5"
+            }
+        ]
+    },
+    {
+        "id": "Artistic-1.0",
+        "identifiers": [
+            {
+                "identifier": "Artistic-1.0",
+                "scheme": "DEP5"
+            }
+        ]
+    },
+    {
+        "id": "Artistic-2.0",
+        "identifiers": [
+            {
+                "identifier": "Artistic-2.0",
+                "scheme": "DEP5"
+            }
+        ]
+    },
+    {
+        "id": "BSD-2",
+        "identifiers": [
+            {
+                "identifier": "BSD-2-clause",
+                "scheme": "DEP5"
+            }
+        ]
+    },
+    {
+        "id": "BSD-3",
+        "identifiers": [
+            {
+                "identifier": "BSD-3-clause",
+                "scheme": "DEP5"
+            }
+        ]
+    },
+    {
+        "id": "BSD-4",
+        "identifiers": [
+            {
+                "identifier": "BSD-4-clause",
+                "scheme": "DEP5"
+            }
+        ]
+    },
+    {
+        "id": "ISC",
+        "identifiers": [
+            {
+                "identifier": "ISC",
+                "scheme": "DEP5"
+            }
+        ]
+    },
+    {
+        "id": "CDDL-1.0",
+        "identifiers": [
+            {
+                "identifier": "CDDL-1.0",
+                "scheme": "DEP5"
+            }
+        ]
+    },
+    {
+        "id": "CPL-1.0",
+        "identifiers": [
+            {
+                "identifier": "CPL",
+                "scheme": "DEP5"
+            }
+        ]
+    },
+    {
+        "id": "EFL-1.0",
+        "identifiers": [
+            {
+                "identifier": "EFL-1.0",
+                "scheme": "DEP5"
+            }
+        ]
+    },
+    {
+        "id": "EFL-2.0",
+        "identifiers": [
+            {
+                "identifier": "EFL-2.0",
+                "scheme": "DEP5"
+            }
+        ]
+    },
+    {
+        "id": "Expat",
+        "identifiers": [
+            {
+                "identifier": "Expat",
+                "scheme": "DEP5"
+            }
+        ]
+    },
+    {
+        "id": "GPL-2.0",
+        "identifiers": [
+            {
+                "identifier": "GPL-2.0",
+                "scheme": "DEP5"
+            }
+        ]
+    },
+    {
+        "id": "GPL-3.0",
+        "identifiers": [
+            {
+                "identifier": "GPL-3.0",
+                "scheme": "DEP5"
+            }
+        ]
+    },
+    {
+        "id": "LGPL-2.1",
+        "identifiers": [
+            {
+                "identifier": "LGPL-2.1",
+                "scheme": "DEP5"
+            }
+        ]
+    },
+    {
+        "id": "LGPL-3.0",
+        "identifiers": [
+            {
+                "identifier": "LGPL-3.0",
+                "scheme": "DEP5"
+            }
+        ]
+    },
+    {
+        "id": "LPPL-1.3c",
+        "identifiers": [
+            {
+                "identifier": "LPPL-1.3c",
+                "scheme": "DEP5"
+            }
+        ]
+    },
+    {
+        "id": "MPL-1.1",
+        "identifiers": [
+            {
+                "identifier": "MPL-1.1",
+                "scheme": "DEP5"
+            }
+        ]
+    },
+    {
+        "id": "Python-2.0",
+        "identifiers": [
+            {
+                "identifier": "Python-2.0",
+                "scheme": "DEP5"
+            }
+        ]
+    },
+    {
+        "id": "QPL-1.0",
+        "identifiers": [
+            {
+                "identifier": "QPL-1.0",
+                "scheme": "DEP5"
+            }
+        ]
+    },
+    {
+        "id": "Zlib",
+        "identifiers": [
+            {
+                "identifier": "Zlib",
+                "scheme": "DEP5"
+            }
+        ]
+    },
+    {
+        "id": "ZPL-2.0",
+        "identifiers": [
+            {
+                "identifier": "Zope-2.0",
+                "scheme": "DEP5"
+            }
+        ]
+    }
+]

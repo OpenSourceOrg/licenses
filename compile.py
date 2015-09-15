@@ -68,7 +68,11 @@ def validate(stream):
         schema = json.load(fd)
 
     def valid_schema(obj):
-        validictory.validate(obj, schema)
+        try:
+            validictory.validate(obj, schema)
+        except validictory.validator.RequiredFieldValidationError:
+            print("Failure to validate {id}".format(**obj))
+            raise
 
     seen = set()
     for el in stream:

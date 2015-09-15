@@ -103,7 +103,7 @@ def load_licenses(path="./licenses", output="licenses.json"):
             sys.exit(0)
 
     licenses = stream_licenses(path=path)
-    data = list(validate(merge_stream(licenses)))
+    data = list(sorted(validate(merge_stream(licenses)), key=lambda x: x['id']))
 
     with open(output, 'w') as fd:
         json.dump(data, fd)

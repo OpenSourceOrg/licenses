@@ -112,6 +112,15 @@ def load_licenses(path="./licenses", output="licenses.json"):
     # Now, let's audit it
     report = audit.audit(path=output, exit=False)
 
+    fatal = False
+    for key, values in report.items():
+        for value in values:
+            if value['fatal']:
+                print("FATAL:", value['id'], value['message'], value)
+                fatal = True
+    if fatal:
+        raise Exception("Fatal error found")
+
     for identifier in report['identifiers']:
         print(" {count:03d} licenses contain scheme {scheme} ({percent:1f}%)".format(
             **identifier

@@ -58,6 +58,7 @@ def audit_names(licenses):
     return list(filter(
         lambda x: x['problems'] != [],
         [{"id": x['id'], "name": x['name'], "problems": list(check_name(x)),
+          "message": "License was named poorly",
           "fatal": True} for x in licenses]))
 
 
@@ -68,6 +69,7 @@ def audit_full_text(licenses):
                 yield license
 
     return [{"id": license['id'],
+             "message": "License missing fulltext",
              "fatal": True} for license in missing(licenses)]
 
 

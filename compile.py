@@ -105,7 +105,7 @@ def load_licenses(path="./licenses", output="licenses.json"):
 
     with open(output, 'w') as fd:
         json.dump(data, fd)
-    json.dump(data, sys.stdout, sort_keys=True, indent=4)
+    print("{len} records written out".format(len=len(data)))
 
 
 if __name__ == "__main__":

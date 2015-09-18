@@ -18,4 +18,4 @@ Not yet. Hopefully soon.
 Licensing
 =========
 
-Software is GPL-3.0+, data is CC0. See LICENSING for more information.
+Software is GPL-3.0+, data is CC0. See LICENSE for more information.

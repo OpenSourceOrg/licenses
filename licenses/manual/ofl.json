@@ -8,14 +8,14 @@
             }
         ],
         "name": "SIL Open Font License, Version 1.1",
-        "tags": [
+        "keywords": [
             "osi-approved",
             "special-purpose"
         ],
         "text": [
             {
-                "content_type": "text/html",
-                "name": "HTML",
+                "media_type": "text/html",
+                "title": "HTML",
                 "url": "http://opensource.org/licenses/OFL-1.1"
             }
         ]

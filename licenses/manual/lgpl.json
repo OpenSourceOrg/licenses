@@ -2,6 +2,12 @@
     {
         "id": "LGPL-3.0",
         "identifiers": [],
+        "keywords": [
+            "osi-approved",
+            "dfsg-free",
+            "popular",
+            "copyleft"
+        ],
         "links": [
             {
                 "note": "OSI Page",
@@ -10,21 +16,15 @@
         ],
         "name": "GNU Lesser General Public License, Version 3.0",
         "superseded_by": null,
-        "tags": [
-            "osi-approved",
-            "dfsg-free",
-            "popular",
-            "copyleft"
-        ],
         "text": [
             {
-                "content_type": "text/plain",
-                "name": "Plain Text",
+                "media_type": "text/plain",
+                "title": "Plain Text",
                 "url": "https://www.gnu.org/licenses/lgpl-3.0.txt"
             },
             {
-                "content_type": "text/html",
-                "name": "HTML",
+                "media_type": "text/html",
+                "title": "HTML",
                 "url": "https://www.gnu.org/licenses/lgpl-3.0-standalone.html"
             }
         ]
@@ -32,6 +32,12 @@
     {
         "id": "LGPL-2.1",
         "identifiers": [],
+        "keywords": [
+            "osi-approved",
+            "dfsg-free",
+            "popular",
+            "copyleft"
+        ],
         "links": [
             {
                 "note": "OSI Page",
@@ -40,21 +46,15 @@
         ],
         "name": "GNU Lesser General Public License, Version 2.1",
         "superseded_by": "LGPL-3.0",
-        "tags": [
-            "osi-approved",
-            "dfsg-free",
-            "popular",
-            "copyleft"
-        ],
         "text": [
             {
-                "content_type": "text/plain",
-                "name": "Plain Text",
+                "media_type": "text/plain",
+                "title": "Plain Text",
                 "url": "https://www.gnu.org/licenses/lgpl-2.1.txt"
             },
             {
-                "content_type": "text/html",
-                "name": "HTML",
+                "media_type": "text/html",
+                "title": "HTML",
                 "url": "https://www.gnu.org/licenses/lgpl-2.1-standalone.html"
             }
         ]

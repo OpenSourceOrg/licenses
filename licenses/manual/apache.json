@@ -10,7 +10,7 @@
         ],
         "name": "Apache License, Version 2.0",
         "superseded_by": null,
-        "tags": [
+        "keywords": [
             "osi-approved",
             "dfsg-free",
             "popular",
@@ -18,8 +18,8 @@
         ],
         "text": [
             {
-                "content_type": "text/html",
-                "name": "HTML",
+                "media_type": "text/html",
+                "title": "HTML",
                 "url": "http://www.apache.org/licenses/LICENSE-2.0"
             }
         ]
@@ -34,15 +34,15 @@
         ],
         "name": "Apache Software License, Version 1.1",
         "superseded_by": "Apache-2.0",
-        "tags": [
+        "keywords": [
             "discouraged",
             "obsolete",
             "osi-approved"
         ],
         "text": [
             {
-                "content_type": "text/html",
-                "name": "HTML",
+                "media_type": "text/html",
+                "title": "HTML",
                 "url": "http://opensource.org/licenses/Apache-1.1"
             }
         ]

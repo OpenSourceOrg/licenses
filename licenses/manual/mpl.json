@@ -2,6 +2,12 @@
     {
         "id": "MPL-2.0",
         "identifiers": [],
+        "keywords": [
+            "osi-approved",
+            "dfsg-free",
+            "popular",
+            "copyleft"
+        ],
         "links": [
             {
                 "note": "OSI Page",
@@ -15,22 +21,21 @@
         "name": "Mozilla Public License, Version 2.0",
         "other_names": [],
         "superseded_by": null,
-        "tags": [
-            "osi-approved",
-            "dfsg-free",
-            "popular",
-            "copyleft"
-        ],
         "text": [
             {
-                "content_type": "text/html",
-                "name": "HTML",
+                "title": "HTML",
+                "media_type": "text/html",
                 "url": "https://www.mozilla.org/en-US/MPL/2.0/"
             }
         ]
     },
     {
         "id": "MPL-1.1",
+        "keywords": [
+            "osi-approved",
+            "discouraged",
+            "obsolete"
+        ],
         "links": [
             {
                 "note": "OSI Page",
@@ -39,21 +44,21 @@
         ],
         "name": "Mozilla Public License, Version 1.1",
         "superseded_by": "MPL-2.0",
-        "tags": [
-            "osi-approved",
-            "discouraged",
-            "obsolete"
-        ],
         "text": [
             {
-                "content_type": "text/html",
-                "name": "HTML",
+                "media_type": "text/html",
+                "title": "HTML",
                 "url": "http://opensource.org/licenses/MPL-1.1"
             }
         ]
     },
     {
         "id": "MPL-1.0",
+        "keywords": [
+            "osi-approved",
+            "discouraged",
+            "obsolete"
+        ],
         "links": [
             {
                 "note": "OSI Page",
@@ -62,15 +67,10 @@
         ],
         "name": "Mozilla Public License, Version 1.0",
         "superseded_by": "MPL-2.0",
-        "tags": [
-            "osi-approved",
-            "discouraged",
-            "obsolete"
-        ],
         "text": [
             {
-                "content_type": "text/html",
-                "name": "HTML",
+                "media_type": "text/html",
+                "title": "HTML",
                 "url": "http://opensource.org/licenses/MPL-1.0"
             }
         ]

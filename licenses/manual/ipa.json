@@ -8,14 +8,14 @@
             }
         ],
         "name": "IPA Font License",
-        "tags": [
+        "keywords": [
             "osi-approved",
             "special-purpose"
         ],
         "text": [
             {
-                "content_type": "text/html",
-                "name": "HTML",
+                "media_type": "text/html",
+                "title": "HTML",
                 "url": "http://opensource.org/licenses/IPA"
             }
         ]

@@ -25,7 +25,7 @@
             }
         ],
         "superseded_by": null,
-        "tags": [
+        "keywords": [
             "osi-approved",
             "dfsg-free",
             "popular",
@@ -33,8 +33,8 @@
         ],
         "text": [
             {
-                "content_type": "text/html",
-                "name": "HTML",
+                "media_type": "text/html",
+                "title": "HTML",
                 "url": "http://opensource.org/licenses/mit"
             }
         ]

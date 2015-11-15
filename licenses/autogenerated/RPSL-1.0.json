@@ -8,15 +8,15 @@
             }
         ],
         "name": "RealNetworks Public Source License, Version 1.0",
-        "tags": [
+        "keywords": [
             "discouraged",
             "non-reusable",
             "osi-approved"
         ],
         "text": [
             {
-                "content_type": "text/html",
-                "name": "HTML",
+                "media_type": "text/html",
+                "title": "HTML",
                 "url": "http://opensource.org/licenses/RPSL-1.0"
             }
         ]

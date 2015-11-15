@@ -8,15 +8,15 @@
             }
         ],
         "name": "Computer Associates Trusted Open Source License, Version 1.1",
-        "tags": [
+        "keywords": [
             "discouraged",
             "non-reusable",
             "osi-approved"
         ],
         "text": [
             {
-                "content_type": "text/html",
-                "name": "HTML",
+                "media_type": "text/html",
+                "title": "HTML",
                 "url": "http://opensource.org/licenses/CATOSL-1.1"
             }
         ]

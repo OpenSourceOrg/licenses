@@ -8,14 +8,14 @@
             }
         ],
         "name": "Adaptive Public License, Version 1.0",
-        "tags": [
+        "keywords": [
             "osi-approved",
             "miscellaneous"
         ],
         "text": [
             {
-                "content_type": "text/html",
-                "name": "HTML",
+                "media_type": "text/html",
+                "title": "HTML",
                 "url": "http://opensource.org/licenses/APL-1.0"
             }
         ]

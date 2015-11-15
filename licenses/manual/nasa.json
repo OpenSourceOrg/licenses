@@ -8,14 +8,14 @@
             }
         ],
         "name": "NASA Open Source Agreement, Version 1.3",
-        "tags": [
+        "keywords": [
             "osi-approved",
             "special-purpose"
         ],
         "text": [
             {
-                "content_type": "text/html",
-                "name": "HTML",
+                "media_type": "text/html",
+                "title": "HTML",
                 "url": "http://opensource.org/licenses/NASA-1.3"
             }
         ]

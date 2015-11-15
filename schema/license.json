@@ -17,6 +17,12 @@
             "required": false,
             "type": "array"
         },
+        "keywords": {
+            "items": {
+                "type": "string"
+            },
+            "type": "array"
+        },
         "links": {
             "items": {
                 "properties": {
@@ -44,7 +50,10 @@
                         "type": "string"
                     },
                     "note": {
-                        "type": ["null", "string"]
+                        "type": [
+                            "null",
+                            "string"
+                        ]
                     }
                 },
                 "type": "object"
@@ -53,22 +62,19 @@
             "type": "array"
         },
         "superseded_by": {
-            "type": ["null", "string"],
-            "required": false
-        },
-        "tags": {
-            "items": {
-                "type": "string"
-            },
-            "type": "array"
+            "required": false,
+            "type": [
+                "null",
+                "string"
+            ]
         },
         "text": {
             "items": {
                 "properties": {
-                    "content_type": {
+                    "media_type": {
                         "type": "string"
                     },
-                    "name": {
+                    "title": {
                         "type": "string"
                     },
                     "url": {

@@ -9,15 +9,15 @@
         ],
         "name": "Artistic License, Version 1.0",
         "superseded_by": "Artistic-2.0",
-        "tags": [
+        "keywords": [
             "osi-approved",
             "discouraged",
             "obsolete"
         ],
         "text": [
             {
-                "content_type": "text/html",
-                "name": "HTML",
+                "media_type": "text/html",
+                "title": "HTML",
                 "url": "http://opensource.org/licenses/Artistic-1.0"
             }
         ]
@@ -31,14 +31,14 @@
             }
         ],
         "name": "Artistic License, Version 2.0",
-        "tags": [
+        "keywords": [
             "miscellaneous",
             "osi-approved"
         ],
         "text": [
             {
-                "content_type": "text/html",
-                "name": "HTML",
+                "media_type": "text/html",
+                "title": "HTML",
                 "url": "http://opensource.org/licenses/Artistic-2.0"
             }
         ]

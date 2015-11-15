@@ -8,14 +8,14 @@
             }
         ],
         "name": "OSET Foundation Public License",
-        "tags": [
+        "keywords": [
             "osi-approved",
             "special-purpose"
         ],
         "text": [
             {
-                "content_type": "application/pdf",
-                "name": "PDF",
+                "media_type": "application/pdf",
+                "title": "PDF",
                 "url": "http://static1.squarespace.com/static/528d46a2e4b059766439fa8b/t/53236a37e4b0db70c9afdf14/1394829879761/OSETPublicLicense_v2.pdf"
             }
         ]

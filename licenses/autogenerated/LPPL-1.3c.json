@@ -8,15 +8,15 @@
             }
         ],
         "name": "LaTeX Project Public License, Version 1.3c",
-        "tags": [
+        "keywords": [
             "discouraged",
             "non-reusable",
             "osi-approved"
         ],
         "text": [
             {
-                "content_type": "text/html",
-                "name": "HTML",
+                "media_type": "text/html",
+                "title": "HTML",
                 "url": "http://opensource.org/licenses/LPPL-1.3c"
             }
         ]

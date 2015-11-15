@@ -20,15 +20,15 @@
             }
         ],
         "superseded_by": null,
-        "tags": [
+        "keywords": [
             "osi-approved",
             "dfsg-free",
             "permissive"
         ],
         "text": [
             {
-                "content_type": "text/html",
-                "name": "HTML",
+                "media_type": "text/html",
+                "title": "HTML",
                 "url": "http://opensource.org/licenses/BSD-2-Clause"
             }
         ]
@@ -58,15 +58,15 @@
             }
         ],
         "superseded_by": null,
-        "tags": [
+        "keywords": [
             "osi-approved",
             "dfsg-free",
             "permissive"
         ],
         "text": [
             {
-                "content_type": "text/html",
-                "name": "HTML",
+                "media_type": "text/html",
+                "title": "HTML",
                 "url": "http://opensource.org/licenses/BSD-3-Clause"
             }
         ]
@@ -88,15 +88,15 @@
             }
         ],
         "superseded_by": null,
-        "tags": [
+        "keywords": [
             "osi-approved",
             "dfsg-free",
             "permissive"
         ],
         "text": [
             {
-                "content_type": "text/html",
-                "name": "HTML",
+                "media_type": "text/html",
+                "title": "HTML",
                 "url": "http://opensource.org/licenses/BSD-4-Clause"
             }
         ]

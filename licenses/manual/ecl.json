@@ -9,15 +9,15 @@
         ],
         "name": "Educational Community License, Version 1.0",
         "superseded_by": "ECL-2.0",
-        "tags": [
+        "keywords": [
             "discouraged",
             "obsolete",
             "osi-approved"
         ],
         "text": [
             {
-                "content_type": "text/html",
-                "name": "HTML",
+                "media_type": "text/html",
+                "title": "HTML",
                 "url": "http://opensource.org/licenses/ECL-1.0"
             }
         ]
@@ -31,14 +31,14 @@
             }
         ],
         "name": "Educational Community License, Version 2.0",
-        "tags": [
+        "keywords": [
             "special-purpose",
             "osi-approved"
         ],
         "text": [
             {
-                "content_type": "text/html",
-                "name": "HTML",
+                "media_type": "text/html",
+                "title": "HTML",
                 "url": "http://opensource.org/licenses/ECL-2.0"
             }
         ]

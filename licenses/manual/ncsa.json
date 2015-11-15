@@ -8,15 +8,15 @@
             }
         ],
         "name": "The University of Illinois/NCSA Open Source License",
-        "tags": [
+        "keywords": [
             "osi-approved",
             "discouraged",
             "redundant"
         ],
         "text": [
             {
-                "content_type": "text/html",
-                "name": "HTML",
+                "media_type": "text/html",
+                "title": "HTML",
                 "url": "http://opensource.org/licenses/NCSA"
             }
         ]

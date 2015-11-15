@@ -9,15 +9,15 @@
         ],
         "name": "The Eiffel Forum License, Version 1",
         "superseded_by": "EFL-2.0",
-        "tags": [
+        "keywords": [
             "osi-approved",
             "discouraged",
             "obsolete"
         ],
         "text": [
             {
-                "content_type": "text/html",
-                "name": "HTML",
+                "media_type": "text/html",
+                "title": "HTML",
                 "url": "http://opensource.org/licenses/EFL-1.0"
             }
         ]
@@ -31,15 +31,15 @@
             }
         ],
         "name": "Eiffel Forum License, Version 2",
-        "tags": [
+        "keywords": [
             "osi-approved",
             "discouraged",
             "redundant"
         ],
         "text": [
             {
-                "content_type": "text/html",
-                "name": "HTML",
+                "media_type": "text/html",
+                "title": "HTML",
                 "url": "http://opensource.org/licenses/EFL-2.0"
             }
         ]

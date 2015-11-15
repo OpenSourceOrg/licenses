@@ -8,13 +8,13 @@
             }
         ],
         "name": "European Union Public License, Version 1.1",
-        "tags": [
+        "keywords": [
             "osi-approved"
         ],
         "text": [
             {
-                "content_type": "text/html",
-                "name": "HTML",
+                "media_type": "text/html",
+                "title": "HTML",
                 "url": "http://opensource.org/licenses/EUPL-1.1"
             }
         ]

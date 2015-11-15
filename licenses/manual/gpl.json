@@ -10,7 +10,7 @@
         ],
         "name": "GNU General Public License, Version 3.0",
         "superseded_by": null,
-        "tags": [
+        "keywords": [
             "osi-approved",
             "dfsg-free",
             "popular",
@@ -18,13 +18,13 @@
         ],
         "text": [
             {
-                "content_type": "text/plain",
-                "name": "Plain Text",
+                "media_type": "text/plain",
+                "title": "Plain Text",
                 "url": "https://www.gnu.org/licenses/gpl-3.0.txt"
             },
             {
-                "content_type": "text/html",
-                "name": "HTML",
+                "media_type": "text/html",
+                "title": "HTML",
                 "url": "https://www.gnu.org/licenses/gpl-3.0-standalone.html"
             }
         ]
@@ -40,7 +40,7 @@
         ],
         "name": "GNU General Public License, Version 2.0",
         "superseded_by": "GPL-3.0",
-        "tags": [
+        "keywords": [
             "osi-approved",
             "dfsg-free",
             "popular",
@@ -48,13 +48,13 @@
         ],
         "text": [
             {
-                "content_type": "text/plain",
-                "name": "Plain Text",
+                "media_type": "text/plain",
+                "title": "Plain Text",
                 "url": "https://www.gnu.org/licenses/gpl-2.0.txt"
             },
             {
-                "content_type": "text/html",
-                "name": "HTML",
+                "media_type": "text/html",
+                "title": "HTML",
                 "url": "https://www.gnu.org/licenses/gpl-2.0-standalone.html"
             }
         ]

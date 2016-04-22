@@ -2,6 +2,11 @@
     {
         "id": "Apache-2.0",
         "identifiers": [],
+        "keywords": [
+            "osi-approved",
+            "popular",
+            "permissive"
+        ],
         "links": [
             {
                 "note": "OSI Page",
@@ -10,12 +15,6 @@
         ],
         "name": "Apache License, Version 2.0",
         "superseded_by": null,
-        "keywords": [
-            "osi-approved",
-            "dfsg-free",
-            "popular",
-            "permissive"
-        ],
         "text": [
             {
                 "media_type": "text/html",
@@ -26,6 +25,11 @@
     },
     {
         "id": "Apache-1.1",
+        "keywords": [
+            "discouraged",
+            "obsolete",
+            "osi-approved"
+        ],
         "links": [
             {
                 "note": "OSI Page",
@@ -34,11 +38,6 @@
         ],
         "name": "Apache Software License, Version 1.1",
         "superseded_by": "Apache-2.0",
-        "keywords": [
-            "discouraged",
-            "obsolete",
-            "osi-approved"
-        ],
         "text": [
             {
                 "media_type": "text/html",

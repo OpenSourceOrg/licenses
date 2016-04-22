@@ -7,6 +7,11 @@
                 "scheme": "DEP5"
             }
         ],
+        "keywords": [
+            "osi-approved",
+            "popular",
+            "permissive"
+        ],
         "links": [
             {
                 "note": "OSI Page",
@@ -25,12 +30,6 @@
             }
         ],
         "superseded_by": null,
-        "keywords": [
-            "osi-approved",
-            "dfsg-free",
-            "popular",
-            "permissive"
-        ],
         "text": [
             {
                 "media_type": "text/html",

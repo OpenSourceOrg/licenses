@@ -2,6 +2,10 @@
     {
         "id": "CDDL-1.0",
         "identifiers": [],
+        "keywords": [
+            "osi-approved",
+            "popular"
+        ],
         "links": [
             {
                 "note": "OSI Page",
@@ -11,11 +15,6 @@
         "name": "Common Development and Distribution License, Version 1.0",
         "other_names": [],
         "superseded_by": null,
-        "keywords": [
-            "osi-approved",
-            "dfsg-free",
-            "popular"
-        ],
         "text": [
             {
                 "media_type": "text/html",

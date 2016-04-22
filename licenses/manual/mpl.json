@@ -4,7 +4,6 @@
         "identifiers": [],
         "keywords": [
             "osi-approved",
-            "dfsg-free",
             "popular",
             "copyleft"
         ],
@@ -23,8 +22,8 @@
         "superseded_by": null,
         "text": [
             {
-                "title": "HTML",
                 "media_type": "text/html",
+                "title": "HTML",
                 "url": "https://www.mozilla.org/en-US/MPL/2.0/"
             }
         ]

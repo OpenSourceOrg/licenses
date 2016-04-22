@@ -4,7 +4,7 @@
         "links": [
             {
                 "note": "OSI Page",
-                "url": "http://opensource.org/licenses/CECILL-2.1"
+                "url": "https://opensource.org/licenses/CECILL-2.1"
             }
         ],
         "name": "Cea Cnrs Inria Logiciel Libre License, Version 2.1",
@@ -15,7 +15,7 @@
             {
                 "media_type": "text/html",
                 "title": "HTML",
-                "url": "http://opensource.org/licenses/CECILL-2.1"
+                "url": "https://opensource.org/licenses/CECILL-2.1"
             }
         ]
     }

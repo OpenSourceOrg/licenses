@@ -15,7 +15,7 @@
         "links": [
             {
                 "note": "OSI Page",
-                "url": "http://opensource.org/licenses/mit"
+                "url": "https://opensource.org/licenses/mit"
             }
         ],
         "name": "MIT/Expat License",
@@ -34,7 +34,7 @@
             {
                 "media_type": "text/html",
                 "title": "HTML",
-                "url": "http://opensource.org/licenses/mit"
+                "url": "https://opensource.org/licenses/mit"
             }
         ]
     }

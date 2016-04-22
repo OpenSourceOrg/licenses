@@ -9,7 +9,7 @@
         "links": [
             {
                 "note": "OSI Page",
-                "url": "http://opensource.org/licenses/OSL-1.0"
+                "url": "https://opensource.org/licenses/OSL-1.0"
             }
         ],
         "name": "Open Software License, Version 1.0",
@@ -18,7 +18,7 @@
             {
                 "media_type": "text/html",
                 "title": "HTML",
-                "url": "http://opensource.org/licenses/OSL-1.0"
+                "url": "https://opensource.org/licenses/OSL-1.0"
             }
         ]
     },
@@ -32,7 +32,7 @@
         "links": [
             {
                 "note": "OSI Page",
-                "url": "http://opensource.org/licenses/OSL-2.1"
+                "url": "https://opensource.org/licenses/OSL-2.1"
             }
         ],
         "name": "Open Software License, Version 2.1",
@@ -41,7 +41,7 @@
             {
                 "media_type": "text/html",
                 "title": "HTML",
-                "url": "http://opensource.org/licenses/OSL-2.1"
+                "url": "https://opensource.org/licenses/OSL-2.1"
             }
         ]
     },
@@ -54,7 +54,7 @@
         "links": [
             {
                 "note": "OSI Page",
-                "url": "http://opensource.org/licenses/OSL-3.0"
+                "url": "https://opensource.org/licenses/OSL-3.0"
             }
         ],
         "name": "Open Software License, Version 3.0",
@@ -63,7 +63,7 @@
             {
                 "media_type": "text/html",
                 "title": "HTML",
-                "url": "http://opensource.org/licenses/OSL-3.0"
+                "url": "https://opensource.org/licenses/OSL-3.0"
             }
         ]
     }

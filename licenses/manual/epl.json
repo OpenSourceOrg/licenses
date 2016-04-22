@@ -9,7 +9,7 @@
         "links": [
             {
                 "note": "OSI Page",
-                "url": "http://opensource.org/licenses/EPL-1.0"
+                "url": "https://opensource.org/licenses/EPL-1.0"
             }
         ],
         "name": "Eclipse Public License, Version 1.0",
@@ -19,7 +19,7 @@
             {
                 "media_type": "text/html",
                 "title": "HTML",
-                "url": "http://www.eclipse.org/legal/epl-v10.html"
+                "url": "https://www.eclipse.org/legal/epl-v10.html"
             }
         ]
     }

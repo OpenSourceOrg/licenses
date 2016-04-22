@@ -9,7 +9,7 @@
         "links": [
             {
                 "note": "OSI Page",
-                "url": "http://opensource.org/licenses/RPL-1.1"
+                "url": "https://opensource.org/licenses/RPL-1.1"
             }
         ],
         "name": "Reciprocal Public License, Version 1.1",
@@ -18,7 +18,7 @@
             {
                 "media_type": "text/html",
                 "title": "HTML",
-                "url": "http://opensource.org/licenses/RPL-1.1"
+                "url": "https://opensource.org/licenses/RPL-1.1"
             }
         ]
     },
@@ -30,7 +30,7 @@
         "links": [
             {
                 "note": "OSI Page",
-                "url": "http://opensource.org/licenses/RPL-1.5"
+                "url": "https://opensource.org/licenses/RPL-1.5"
             }
         ],
         "name": "Reciprocal Public License, Version 1.5",
@@ -38,7 +38,7 @@
             {
                 "media_type": "text/html",
                 "title": "HTML",
-                "url": "http://opensource.org/licenses/RPL-1.5"
+                "url": "https://opensource.org/licenses/RPL-1.5"
             }
         ]
     }

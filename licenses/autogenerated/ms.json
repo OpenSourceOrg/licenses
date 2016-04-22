@@ -7,7 +7,7 @@
         "links": [
             {
                 "note": "OSI Page",
-                "url": "http://opensource.org/licenses/MS-PL"
+                "url": "https://opensource.org/licenses/MS-PL"
             }
         ],
         "name": "Microsoft Public License (MS-PL)",
@@ -15,7 +15,7 @@
             {
                 "media_type": "text/html",
                 "title": "HTML",
-                "url": "http://opensource.org/licenses/MS-PL"
+                "url": "https://opensource.org/licenses/MS-PL"
             }
         ]
     },
@@ -27,7 +27,7 @@
         "links": [
             {
                 "note": "OSI Page",
-                "url": "http://opensource.org/licenses/MS-RL"
+                "url": "https://opensource.org/licenses/MS-RL"
             }
         ],
         "name": "Microsoft Reciprocal License (MS-RL)",
@@ -35,7 +35,7 @@
             {
                 "media_type": "text/html",
                 "title": "HTML",
-                "url": "http://opensource.org/licenses/MS-RL"
+                "url": "https://opensource.org/licenses/MS-RL"
             }
         ]
     }

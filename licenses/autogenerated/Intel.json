@@ -4,7 +4,7 @@
         "links": [
             {
                 "note": "OSI Page",
-                "url": "http://opensource.org/licenses/Intel"
+                "url": "https://opensource.org/licenses/Intel"
             }
         ],
         "name": "The Intel Open Source License",
@@ -17,7 +17,7 @@
             {
                 "media_type": "text/html",
                 "title": "HTML",
-                "url": "http://opensource.org/licenses/Intel"
+                "url": "https://opensource.org/licenses/Intel"
             }
         ]
     }

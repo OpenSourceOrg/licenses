@@ -9,7 +9,7 @@
         "links": [
             {
                 "note": "OSI Page",
-                "url": "http://opensource.org/licenses/CDDL-1.0"
+                "url": "https://opensource.org/licenses/CDDL-1.0"
             }
         ],
         "name": "Common Development and Distribution License, Version 1.0",
@@ -19,7 +19,7 @@
             {
                 "media_type": "text/html",
                 "title": "HTML",
-                "url": "http://opensource.org/licenses/CDDL-1.0"
+                "url": "https://opensource.org/licenses/CDDL-1.0"
             }
         ]
     }

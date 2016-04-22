@@ -10,7 +10,7 @@
         "links": [
             {
                 "note": "OSI Page",
-                "url": "http://opensource.org/licenses/BSD-2-Clause"
+                "url": "https://opensource.org/licenses/BSD-2-Clause"
             }
         ],
         "name": "BSD 2-Clause License",
@@ -29,7 +29,7 @@
             {
                 "media_type": "text/html",
                 "title": "HTML",
-                "url": "http://opensource.org/licenses/BSD-2-Clause"
+                "url": "https://opensource.org/licenses/BSD-2-Clause"
             }
         ]
     },
@@ -44,7 +44,7 @@
         "links": [
             {
                 "note": "OSI Page",
-                "url": "http://opensource.org/licenses/BSD-3-Clause"
+                "url": "https://opensource.org/licenses/BSD-3-Clause"
             }
         ],
         "name": "BSD 3-Clause License",
@@ -67,7 +67,7 @@
             {
                 "media_type": "text/html",
                 "title": "HTML",
-                "url": "http://opensource.org/licenses/BSD-3-Clause"
+                "url": "https://opensource.org/licenses/BSD-3-Clause"
             }
         ]
     },
@@ -81,7 +81,7 @@
         "links": [
             {
                 "note": "OSI Page",
-                "url": "http://opensource.org/licenses/BSD-4-Clause"
+                "url": "https://opensource.org/licenses/BSD-4-Clause"
             }
         ],
         "name": "BSD 4-Clause License",
@@ -96,7 +96,7 @@
             {
                 "media_type": "text/html",
                 "title": "HTML",
-                "url": "http://opensource.org/licenses/BSD-4-Clause"
+                "url": "https://opensource.org/licenses/BSD-4-Clause"
             }
         ]
     }

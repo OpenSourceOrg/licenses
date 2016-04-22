@@ -1,0 +1,68 @@
+[
+    {
+        "id": "LiLiQ-P-1.1",
+        "keywords": [
+            "osi-approved",
+            "international",
+            "permissive"
+        ],
+        "links": [
+            {
+                "note": "OSI Page",
+                "url": "https://opensource.org/licenses/LiLiQ-P-1.1"
+            }
+        ],
+        "name": "Licence Libre du Qu\u00e9bec \u2013 Permissive (LiLiQ-P)",
+        "text": [
+            {
+                "media_type": "text/html",
+                "title": "HTML",
+                "url": "https://opensource.org/licenses/LiLiQ-P-1.1"
+            }
+        ]
+    },
+    {
+        "id": "LiLiQ-R-1.1",
+        "keywords": [
+            "international",
+            "osi-approved",
+            "copyleft"
+        ],
+        "links": [
+            {
+                "note": "OSI Page",
+                "url": "https://opensource.org/licenses/LiLiQ-R-1.1"
+            }
+        ],
+        "name": "Licence Libre du Qu\u00e9bec \u2013 R\u00e9ciprocit\u00e9 (LiLiQ-R)",
+        "text": [
+            {
+                "media_type": "text/html",
+                "title": "HTML",
+                "url": "https://opensource.org/licenses/LiLiQ-R-1.1"
+            }
+        ]
+    },
+    {
+        "id": "LiLiQ-R+",
+        "keywords": [
+            "international",
+            "osi-approved",
+            "copyleft"
+        ],
+        "links": [
+            {
+                "note": "OSI Page",
+                "url": "https://opensource.org/licenses/LiLiQ-Rplus-1.1"
+            }
+        ],
+        "name": "Licence Libre du Qu\u00e9bec \u2013 R\u00e9ciprocit\u00e9 forte (LiLiQ-R+)",
+        "text": [
+            {
+                "media_type": "text/html",
+                "title": "HTML",
+                "url": "https://opensource.org/licenses/LiLiQ-Rplus-1.1"
+            }
+        ]
+    }
+]

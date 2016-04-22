@@ -4,7 +4,7 @@
         "links": [
             {
                 "note": "OSI Page",
-                "url": "http://opensource.org/licenses/Zlib"
+                "url": "https://opensource.org/licenses/Zlib"
             }
         ],
         "name": "The zlib/libpng License (Zlib)",
@@ -15,7 +15,7 @@
             {
                 "media_type": "text/html",
                 "title": "HTML",
-                "url": "http://opensource.org/licenses/Zlib"
+                "url": "https://opensource.org/licenses/Zlib"
             }
         ]
     }

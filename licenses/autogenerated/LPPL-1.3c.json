@@ -4,7 +4,7 @@
         "links": [
             {
                 "note": "OSI Page",
-                "url": "http://opensource.org/licenses/LPPL-1.3c"
+                "url": "https://opensource.org/licenses/LPPL-1.3c"
             }
         ],
         "name": "LaTeX Project Public License, Version 1.3c",
@@ -17,7 +17,7 @@
             {
                 "media_type": "text/html",
                 "title": "HTML",
-                "url": "http://opensource.org/licenses/LPPL-1.3c"
+                "url": "https://opensource.org/licenses/LPPL-1.3c"
             }
         ]
     }

@@ -4,7 +4,7 @@
         "links": [
             {
                 "note": "OSI Page",
-                "url": "http://opensource.org/licenses/Xnet"
+                "url": "https://opensource.org/licenses/Xnet"
             }
         ],
         "name": "The X.Net, Inc. License",
@@ -17,7 +17,7 @@
             {
                 "media_type": "text/html",
                 "title": "HTML",
-                "url": "http://opensource.org/licenses/Xnet"
+                "url": "https://opensource.org/licenses/Xnet"
             }
         ]
     }

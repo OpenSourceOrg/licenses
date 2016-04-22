@@ -4,7 +4,7 @@
         "links": [
             {
                 "note": "OSI Page",
-                "url": "http://opensource.org/licenses/MirOS"
+                "url": "https://opensource.org/licenses/MirOS"
             }
         ],
         "name": "MirOS License (MirOS)",
@@ -15,7 +15,7 @@
             {
                 "media_type": "text/html",
                 "title": "HTML",
-                "url": "http://opensource.org/licenses/MirOS"
+                "url": "https://opensource.org/licenses/MirOS"
             }
         ]
     }

@@ -4,7 +4,7 @@
         "links": [
             {
                 "note": "OSI Page",
-                "url": "http://opensource.org/licenses/IPA"
+                "url": "https://opensource.org/licenses/IPA"
             }
         ],
         "name": "IPA Font License",
@@ -16,7 +16,7 @@
             {
                 "media_type": "text/html",
                 "title": "HTML",
-                "url": "http://opensource.org/licenses/IPA"
+                "url": "https://opensource.org/licenses/IPA"
             }
         ]
     }

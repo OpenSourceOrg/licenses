@@ -4,7 +4,7 @@
         "links": [
             {
                 "note": "OSI Page",
-                "url": "http://opensource.org/licenses/PHP-3.0"
+                "url": "https://opensource.org/licenses/PHP-3.0"
             }
         ],
         "name": "The PHP License, Version 3.0",
@@ -17,7 +17,7 @@
             {
                 "media_type": "text/html",
                 "title": "HTML",
-                "url": "http://opensource.org/licenses/PHP-3.0"
+                "url": "https://opensource.org/licenses/PHP-3.0"
             }
         ]
     }

@@ -4,7 +4,7 @@
         "links": [
             {
                 "note": "OSI Page",
-                "url": "http://opensource.org/licenses/BSL-1.0"
+                "url": "https://opensource.org/licenses/BSL-1.0"
             }
         ],
         "name": "Boost Software License 1.0 (BSL-1.0)",
@@ -15,7 +15,7 @@
             {
                 "media_type": "text/html",
                 "title": "HTML",
-                "url": "http://opensource.org/licenses/BSL-1.0"
+                "url": "https://opensource.org/licenses/BSL-1.0"
             }
         ]
     }

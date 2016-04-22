@@ -4,7 +4,7 @@
         "links": [
             {
                 "note": "OSI Page",
-                "url": "http://opensource.org/licenses/NCSA"
+                "url": "https://opensource.org/licenses/NCSA"
             }
         ],
         "name": "The University of Illinois/NCSA Open Source License",
@@ -17,7 +17,7 @@
             {
                 "media_type": "text/html",
                 "title": "HTML",
-                "url": "http://opensource.org/licenses/NCSA"
+                "url": "https://opensource.org/licenses/NCSA"
             }
         ]
     }

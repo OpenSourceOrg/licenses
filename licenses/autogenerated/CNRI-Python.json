@@ -4,7 +4,7 @@
         "links": [
             {
                 "note": "OSI Page",
-                "url": "http://opensource.org/licenses/CNRI-Python"
+                "url": "https://opensource.org/licenses/CNRI-Python"
             }
         ],
         "name": "CNRI portion of the multi-part Python License",
@@ -17,7 +17,7 @@
             {
                 "media_type": "text/html",
                 "title": "HTML",
-                "url": "http://opensource.org/licenses/CNRI-Python"
+                "url": "https://opensource.org/licenses/CNRI-Python"
             }
         ]
     }

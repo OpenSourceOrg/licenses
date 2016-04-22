@@ -2,6 +2,12 @@
     {
         "id": "BSD-2",
         "identifiers": [],
+        "keywords": [
+            "osi-approved",
+            "dfsg-free",
+            "popular",
+            "permissive"
+        ],
         "links": [
             {
                 "note": "OSI Page",
@@ -20,11 +26,6 @@
             }
         ],
         "superseded_by": null,
-        "keywords": [
-            "osi-approved",
-            "dfsg-free",
-            "permissive"
-        ],
         "text": [
             {
                 "media_type": "text/html",
@@ -36,6 +37,12 @@
     {
         "id": "BSD-3",
         "identifiers": [],
+        "keywords": [
+            "osi-approved",
+            "dfsg-free",
+            "popular",
+            "permissive"
+        ],
         "links": [
             {
                 "note": "OSI Page",
@@ -58,11 +65,6 @@
             }
         ],
         "superseded_by": null,
-        "keywords": [
-            "osi-approved",
-            "dfsg-free",
-            "permissive"
-        ],
         "text": [
             {
                 "media_type": "text/html",
@@ -74,6 +76,11 @@
     {
         "id": "BSD-4",
         "identifiers": [],
+        "keywords": [
+            "osi-approved",
+            "dfsg-free",
+            "permissive"
+        ],
         "links": [
             {
                 "note": "OSI Page",
@@ -88,11 +95,6 @@
             }
         ],
         "superseded_by": null,
-        "keywords": [
-            "osi-approved",
-            "dfsg-free",
-            "permissive"
-        ],
         "text": [
             {
                 "media_type": "text/html",

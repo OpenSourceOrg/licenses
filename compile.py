@@ -36,7 +36,7 @@ def load_file(path):
 
 
 def merge_into(root, new):
-    lists = ["identifiers", "links", "other_names", "tags"]
+    lists = ["identifiers", "links", "other_names", "keywords"]
     id_ = new.pop('id')
     for key, value in new.items():
         if key in lists:
@@ -130,7 +130,7 @@ def load_licenses(path="./licenses", output="licenses.json"):
             **identifier
         ))
 
-    for tag in report['tags']:
+    for tag in report['keywords']:
         print(" {count:03d} licenses contain tag {tag} ({percent:1f}%)".format(
             **tag
         ))

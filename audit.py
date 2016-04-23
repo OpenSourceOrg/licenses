@@ -25,7 +25,7 @@ def audit_tags(licenses):
     total = len(licenses)
     tags = defaultdict(lambda: 0)
     for license in licenses:
-        for tag in license.get('tags', []):
+        for tag in license.get('keywords', []):
             tags[tag] += 1
 
     return [{"tag": tag, "count": count, "percent": count/total*100,
@@ -85,7 +85,7 @@ def audit(path='licenses.json', exit=True):
     with open(path, 'r') as fd:
         licenses = json.load(fd)
     report = {"identifiers": audit_identifiers(licenses),
-              "tags": audit_tags(licenses),
+              "keywords": audit_tags(licenses),
               "names": audit_names(licenses),
               "full_text": audit_full_text(licenses)}
     if exit and has_error(report):

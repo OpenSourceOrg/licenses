@@ -26,17 +26,24 @@ if sys.version_info < (3,):
     sys.exit(0)
 
 
+def cleanup(obj):
+    for key in ["identifiers", "links", "other_names", "keywords", "text"]:
+        if key not in obj:
+            obj[key] = []
+    return obj
+
+
 def load_file(path):
     """
     Load a JSON file and yield out all top level elements from the JSON
     list in the file.
     """
     with open(path) as fd:
-        yield from json.load(fd)
+        yield from map(cleanup, json.load(fd))
 
 
 def merge_into(root, new):
-    lists = ["identifiers", "links", "other_names", "keywords"]
+    lists = ["identifiers", "links", "other_names", "keywords", "text"]
     id_ = new.pop('id')
     for key, value in new.items():
         if key in lists:

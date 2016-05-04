@@ -1,0 +1,389 @@
+[
+    {
+        "id": "AFL-3.0",
+        "identifiers": [
+            {
+                "identifier": "License :: OSI Approved :: Academic Free License (AFL)",
+                "scheme": "Trove"
+            }
+        ]
+    },
+    {
+        "id": "Apache-2.0",
+        "identifiers": [
+            {
+                "identifier": "License :: OSI Approved :: Apache Software License",
+                "scheme": "Trove"
+            }
+        ]
+    },
+    {
+        "id": "APSL-2.0",
+        "identifiers": [
+            {
+                "identifier": "License :: OSI Approved :: Apple Public Source License",
+                "scheme": "Trove"
+            }
+        ]
+    },
+    {
+        "id": "Artistic-2.0",
+        "identifiers": [
+            {
+                "identifier": "License :: OSI Approved :: Artistic License",
+                "scheme": "Trove"
+            }
+        ]
+    },
+    {
+        "id": "AAL",
+        "identifiers": [
+            {
+                "identifier": "License :: OSI Approved :: Attribution Assurance License",
+                "scheme": "Trove"
+            }
+        ]
+    },
+    {
+        "id": "BSD-3",
+        "identifiers": [
+            {
+                "identifier": "License :: OSI Approved :: BSD License",
+                "scheme": "Trove"
+            }
+        ]
+    },
+    {
+        "id": "CECILL-2.1",
+        "identifiers": [
+            {
+                "identifier": "License :: OSI Approved :: CEA CNRS Inria Logiciel Libre License, version 2.1 (CeCILL-2.1)",
+                "scheme": "Trove"
+            }
+        ]
+    },
+    {
+        "id": "CPL-1.0",
+        "identifiers": [
+            {
+                "identifier": "License :: OSI Approved :: Common Public License",
+                "scheme": "Trove"
+            }
+        ]
+    },
+    {
+        "id": "EFL-2.0",
+        "identifiers": [
+            {
+                "identifier": "License :: OSI Approved :: Eiffel Forum License",
+                "scheme": "Trove"
+            }
+        ]
+    },
+    {
+        "id": "EUPL-1.1",
+        "identifiers": [
+            {
+                "identifier": "License :: OSI Approved :: European Union Public Licence 1.1 (EUPL 1.1)",
+                "scheme": "Trove"
+            }
+        ]
+    },
+    {
+        "id": "AGPL-3.0",
+        "identifiers": [
+            {
+                "identifier": "License :: OSI Approved :: GNU Affero General Public License v3",
+                "scheme": "Trove"
+            }
+        ]
+    },
+    {
+        "id": "GPL-3.0",
+        "identifiers": [
+            {
+                "identifier": "License :: OSI Approved :: GNU General Public License (GPL)",
+                "scheme": "Trove"
+            }
+        ]
+    },
+    {
+        "id": "GPL-2.0",
+        "identifiers": [
+            {
+                "identifier": "License :: OSI Approved :: GNU General Public License v2 (GPLv2)",
+                "scheme": "Trove"
+            }
+        ]
+    },
+    {
+        "id": "GPL-3.0",
+        "identifiers": [
+            {
+                "identifier": "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+                "scheme": "Trove"
+            }
+        ]
+    },
+    {
+        "id": "LGPL-2.1",
+        "identifiers": [
+            {
+                "identifier": "License :: OSI Approved :: GNU Lesser General Public License v2 (LGPLv2)",
+                "scheme": "Trove"
+            }
+        ]
+    },
+    {
+        "id": "LGPL-3.0",
+        "identifiers": [
+            {
+                "identifier": "License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)",
+                "scheme": "Trove"
+            }
+        ]
+    },
+    {
+        "id": "LGPL-3.0",
+        "identifiers": [
+            {
+                "identifier": "License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)",
+                "scheme": "Trove"
+            }
+        ]
+    },
+    {
+        "id": "IPL-1.0",
+        "identifiers": [
+            {
+                "identifier": "License :: OSI Approved :: IBM Public License",
+                "scheme": "Trove"
+            }
+        ]
+    },
+    {
+        "id": "Intel",
+        "identifiers": [
+            {
+                "identifier": "License :: OSI Approved :: Intel Open Source License",
+                "scheme": "Trove"
+            }
+        ]
+    },
+    {
+        "id": "ISC",
+        "identifiers": [
+            {
+                "identifier": "License :: OSI Approved :: ISC License (ISCL)",
+                "scheme": "Trove"
+            }
+        ]
+    },
+    {
+        "id": "jabberpl",
+        "identifiers": [
+            {
+                "identifier": "License :: OSI Approved :: Jabber Open Source License",
+                "scheme": "Trove"
+            }
+        ]
+    },
+    {
+        "id": "MIT",
+        "identifiers": [
+            {
+                "identifier": "License :: OSI Approved :: MIT License",
+                "scheme": "Trove"
+            }
+        ]
+    },
+    {
+        "id": "CVW",
+        "identifiers": [
+            {
+                "identifier": "License :: OSI Approved :: MITRE Collaborative Virtual Workspace License (CVW)",
+                "scheme": "Trove"
+            }
+        ]
+    },
+    {
+        "id": "Motosoto",
+        "identifiers": [
+            {
+                "identifier": "License :: OSI Approved :: Motosoto License",
+                "scheme": "Trove"
+            }
+        ]
+    },
+    {
+        "id": "MPL-1.0",
+        "identifiers": [
+            {
+                "identifier": "License :: OSI Approved :: Mozilla Public License 1.0 (MPL)",
+                "scheme": "Trove"
+            }
+        ]
+    },
+    {
+        "id": "MPL-1.1",
+        "identifiers": [
+            {
+                "identifier": "License :: OSI Approved :: Mozilla Public License 1.1 (MPL 1.1)",
+                "scheme": "Trove"
+            }
+        ]
+    },
+    {
+        "id": "MPL-2.0",
+        "identifiers": [
+            {
+                "identifier": "License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)",
+                "scheme": "Trove"
+            }
+        ]
+    },
+    {
+        "id": "NGPL",
+        "identifiers": [
+            {
+                "identifier": "License :: OSI Approved :: Nethack General Public License",
+                "scheme": "Trove"
+            }
+        ]
+    },
+    {
+        "id": "Nokia",
+        "identifiers": [
+            {
+                "identifier": "License :: OSI Approved :: Nokia Open Source License",
+                "scheme": "Trove"
+            }
+        ]
+    },
+    {
+        "id": "OGTSL",
+        "identifiers": [
+            {
+                "identifier": "License :: OSI Approved :: Open Group Test Suite License",
+                "scheme": "Trove"
+            }
+        ]
+    },
+    {
+        "id": "CNRI-Python",
+        "identifiers": [
+            {
+                "identifier": "License :: OSI Approved :: Python License (CNRI Python License)",
+                "scheme": "Trove"
+            }
+        ]
+    },
+    {
+        "id": "Python-2.0",
+        "identifiers": [
+            {
+                "identifier": "License :: OSI Approved :: Python Software Foundation License",
+                "scheme": "Trove"
+            }
+        ]
+    },
+    {
+        "id": "QPL-1.0",
+        "identifiers": [
+            {
+                "identifier": "License :: OSI Approved :: Qt Public License (QPL)",
+                "scheme": "Trove"
+            }
+        ]
+    },
+    {
+        "id": "RSCPL",
+        "identifiers": [
+            {
+                "identifier": "License :: OSI Approved :: Ricoh Source Code Public License",
+                "scheme": "Trove"
+            }
+        ]
+    },
+    {
+        "id": "Sleepycat",
+        "identifiers": [
+            {
+                "identifier": "License :: OSI Approved :: Sleepycat License",
+                "scheme": "Trove"
+            }
+        ]
+    },
+    {
+        "id": "SISSL",
+        "identifiers": [
+            {
+                "identifier": "License :: OSI Approved :: Sun Industry Standards Source License (SISSL)",
+                "scheme": "Trove"
+            }
+        ]
+    },
+    {
+        "id": "SPL-1.0",
+        "identifiers": [
+            {
+                "identifier": "License :: OSI Approved :: Sun Public License",
+                "scheme": "Trove"
+            }
+        ]
+    },
+    {
+        "id": "NCSA",
+        "identifiers": [
+            {
+                "identifier": "License :: OSI Approved :: University of Illinois/NCSA Open Source License",
+                "scheme": "Trove"
+            }
+        ]
+    },
+    {
+        "id": "VSL-1.0",
+        "identifiers": [
+            {
+                "identifier": "License :: OSI Approved :: Vovida Software License 1.0",
+                "scheme": "Trove"
+            }
+        ]
+    },
+    {
+        "id": "W3C",
+        "identifiers": [
+            {
+                "identifier": "License :: OSI Approved :: W3C License",
+                "scheme": "Trove"
+            }
+        ]
+    },
+    {
+        "id": "Xnet",
+        "identifiers": [
+            {
+                "identifier": "License :: OSI Approved :: X.Net License",
+                "scheme": "Trove"
+            }
+        ]
+    },
+    {
+        "id": "Zlib",
+        "identifiers": [
+            {
+                "identifier": "License :: OSI Approved :: zlib/libpng License",
+                "scheme": "Trove"
+            }
+        ]
+    },
+    {
+        "id": "ZPL-2.0",
+        "identifiers": [
+            {
+                "identifier": "License :: OSI Approved :: Zope Public License",
+                "scheme": "Trove"
+            }
+        ]
+    }
+]

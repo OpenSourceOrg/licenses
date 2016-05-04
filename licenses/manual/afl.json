@@ -1,6 +1,11 @@
 [
     {
         "id": "AFL-3.0",
+        "keywords": [
+            "osi-approved",
+            "discouraged",
+            "redundant"
+        ],
         "links": [
             {
                 "note": "OSI Page",
@@ -8,11 +13,6 @@
             }
         ],
         "name": "Academic Free License, Version 3.0",
-        "keywords": [
-            "osi-approved",
-            "discouraged",
-            "redundant"
-        ],
         "text": [
             {
                 "media_type": "text/html",

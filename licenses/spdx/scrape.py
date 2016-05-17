@@ -16,33 +16,22 @@
 import sys
 import json
 import requests
-import lxml.html
-
-
-def lxmlize(url):
-    page = lxml.html.fromstring(requests.get(url).text)
-    page.make_links_absolute(url)
-    return page
-
 
 def stream(known):
-    for license in lxmlize("http://spdx.org/licenses/").xpath(
-        "//table[@class='sortable']//tbody//tr"
-    ):
-        name, spdx, approved, _ = license.xpath("./td")
-        name, = name.xpath("./a/text()")
-        license_id, = spdx.xpath(".//code[@property='spdx:licenseId']/text()")
+    request = requests.get("http://spdx.org/licenses/licenses.json")
+    spdx_json = request.json()
+    for license in spdx_json["licenses"]:
 
-        if license_id not in known:
-            sys.stderr.write("Unknown license: {}\n".format(license_id))
+        if license["licenseId"] not in known:
+            sys.stderr.write("Unknown license: {}\n".format(license["licenseId"]))
             sys.stderr.flush()
             continue
 
         yield {
-            "id": license_id,
+            "id": license["licenseId"],
             "identifiers": [
                 {"scheme": "SPDX",
-                 "identifier": license_id},
+                 "identifier": license["licenseId"]},
             ]
         }
 

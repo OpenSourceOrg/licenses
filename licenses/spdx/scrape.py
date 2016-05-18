@@ -21,19 +21,19 @@ def stream(known):
     request = requests.get("http://spdx.org/licenses/licenses.json")
     spdx_json = request.json()
     for license in spdx_json["licenses"]:
+        if license["isOsiApproved"] and not license["isDeprecatedLicenseId"]:
+            if license["licenseId"] not in known:
+                sys.stderr.write("Unknown license: {}\n".format(license["licenseId"]))
+                sys.stderr.flush()
+                continue
 
-        if license["licenseId"] not in known:
-            sys.stderr.write("Unknown license: {}\n".format(license["licenseId"]))
-            sys.stderr.flush()
-            continue
-
-        yield {
-            "id": license["licenseId"],
-            "identifiers": [
-                {"scheme": "SPDX",
-                 "identifier": license["licenseId"]},
-            ]
-        }
+            yield {
+                "id": license["licenseId"],
+                "identifiers": [
+                    {"scheme": "SPDX",
+                     "identifier": license["licenseId"]},
+                ]
+            }
 
 
 def scrape():

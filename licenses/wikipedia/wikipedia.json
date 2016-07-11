@@ -256,7 +256,12 @@
     },
     {
         "id": "ISC",
-        "links": []
+        "links": [
+            {
+                "note": "Wikipedia page",
+                "url": "https://en.wikipedia.org/wiki/ISC_license"
+            }
+        ]
     },
     {
         "id": "Zlib",

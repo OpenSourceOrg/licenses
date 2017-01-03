@@ -18,15 +18,6 @@
         ]
     },
     {
-        "id": "BSD-4",
-        "identifiers": [
-            {
-                "identifier": "BSD-4-Clause",
-                "scheme": "SPDX"
-            }
-        ]
-    },
-    {
         "id": "MIT",
         "identifiers": [
             {

@@ -70,34 +70,5 @@
                 "url": "https://opensource.org/licenses/BSD-3-Clause"
             }
         ]
-    },
-    {
-        "id": "BSD-4",
-        "identifiers": [],
-        "keywords": [
-            "osi-approved",
-            "permissive"
-        ],
-        "links": [
-            {
-                "note": "OSI Page",
-                "url": "https://opensource.org/licenses/BSD-4-Clause"
-            }
-        ],
-        "name": "BSD 4-Clause License",
-        "other_names": [
-            {
-                "name": "Original BSD License",
-                "note": null
-            }
-        ],
-        "superseded_by": null,
-        "text": [
-            {
-                "media_type": "text/html",
-                "title": "HTML",
-                "url": "https://opensource.org/licenses/BSD-4-Clause"
-            }
-        ]
     }
 ]

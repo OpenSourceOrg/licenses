@@ -34,5 +34,14 @@
                 "url": "https://tldrlegal.com/license/mit-license"
             }
         ]
+    },
+    {
+        "id": "MirOS",
+        "links": [
+            {
+                "note": "tl;dr legal",
+                "url": "https://tldrlegal.com/license/miros-license-%28miros%29"
+            }
+        ]
     }
 ]

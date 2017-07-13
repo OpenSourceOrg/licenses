@@ -113,28 +113,8 @@ def load_licenses(path="./licenses", output="licenses.json"):
         json.dump(data, fd, sort_keys=True)
     print("{len} records written out".format(len=len(data)))
 
-    # Now, let's audit it
-    report = audit.audit(path=output, exit=False)
-
-    fatal = False
-    for key, values in report.items():
-        for value in values:
-            if value['fatal']:
-                print("FATAL:", value['id'], value['message'], value)
-                fatal = True
-    if fatal:
-        raise Exception("Fatal error found")
-
-    for identifier in report['identifiers']:
-        print(" {count:03d} licenses contain scheme {scheme} ({percent:1f}%)".format(
-            **identifier
-        ))
-
-    for tag in report['keywords']:
-        print(" {count:03d} licenses contain tag {tag} ({percent:1f}%)".format(
-            **tag
-        ))
-
+    report = audit.audit(path=output)
+    audit.display_report(report=report)
 
 if __name__ == "__main__":
     load_licenses(*sys.argv[1:])

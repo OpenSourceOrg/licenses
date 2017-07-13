@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 # Copyright (c) 2015, Paul R. Tagliamonte <paultag@opensource.org>
 #
 # This program is free software: you can redistribute it and/or modify

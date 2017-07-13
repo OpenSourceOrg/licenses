@@ -110,7 +110,7 @@ def load_licenses(path="./licenses", output="licenses.json"):
     data = list(sorted(validate(merge_stream(licenses)), key=lambda x: x['id']))
 
     with open(output, 'w') as fd:
-        json.dump(data, fd)
+        json.dump(data, fd, sort_keys=True)
     print("{len} records written out".format(len=len(data)))
 
     # Now, let's audit it

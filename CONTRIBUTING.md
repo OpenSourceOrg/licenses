@@ -17,6 +17,6 @@ Compiling the master list
 
 Run the `compile.py` script, which will import all the JSON, merge documents
 on the `id` key (merging lists, and only allowing each non-list key to be set
-once), and print the resuslting data to stdout.
+once), and print the resulting data to stdout.
 
 Please run the `compile.py` script before sending in any patches.

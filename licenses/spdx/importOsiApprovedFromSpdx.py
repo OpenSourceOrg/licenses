@@ -18,14 +18,12 @@ import sys
 import json
 import requests
 from pathlib import Path
-import pdb
 
 def updateSpdxMappingsFile(spdxLicenseId, osiLicenseId):
     """
     Updates the JSON file containing the mappings from the OSI license ID to the SPDX license ID
     """
     spdxMappingsFilePath = Path("importedSpdxFiles.json")
-    pdb.set_trace()
     try:
         with spdxMappingsFilePath.open(mode='r+') as f:
             spdxMappings = json.load(f)

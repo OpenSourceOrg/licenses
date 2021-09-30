@@ -15,7 +15,7 @@
                 "url": "https://spdx.org/licenses/BSD-2-Clause-Patent"
             }
         ],
-        "name": "BSD-2-Clause Plus Patent License",
+        "name": "BSD+Patent",
         "text": [
             {
                 "media_type": "text/html",

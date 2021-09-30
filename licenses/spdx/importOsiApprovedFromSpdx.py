@@ -25,32 +25,33 @@ def updateSpdxMappingsFile(spdxLicenseId, osiLicenseId):
     """
     spdxMappingsFilePath = Path("importedSpdxFiles.json")
     try:
-        with spdxMappingsFilePath.open(mode='r+') as f:
-            spdxMappings = json.load(f)
-            identifiers = None
-            for idMap in spdxMappings:
-                if idMap["id"] == osiLicenseId:
-                    identifiers = idMap["identifiers"]
-                    break
-            if identifiers == None:
-                spdxIdMap = {
-                        "id": osiLicenseId,
-                        "identifiers": []
-                        }
-                spdxMappings.append(spdxIdMap)
-                identifiers = spdxIdMap["identifiers"]
-            found = False
-            for spdxId in identifiers:
-                if spdxId["identifier"] == spdxLicenseId and spdxId["scheme"] == "SPDX":
-                    found = True
-                    break
-            if not found:
-                identifiers.append({
-                                "identifier": spdxLicenseId,
-                                "scheme": "SPDX"
-                                });
-            f.seek(0)
-            f.truncate()
+        spdxMappings = []
+        if spdxMappingsFilePath.is_file():
+            with spdxMappingsFilePath.open(mode='r') as f:
+                spdxMappings = json.load(f)
+        identifiers = None
+        for idMap in spdxMappings:
+            if idMap["id"] == osiLicenseId:
+                identifiers = idMap["identifiers"]
+                break
+        if identifiers == None:
+            spdxIdMap = {
+                    "id": osiLicenseId,
+                    "identifiers": []
+                    }
+            spdxMappings.append(spdxIdMap)
+            identifiers = spdxIdMap["identifiers"]
+        found = False
+        for spdxId in identifiers:
+            if spdxId["identifier"] == spdxLicenseId and spdxId["scheme"] == "SPDX":
+                found = True
+                break
+        if not found:
+            identifiers.append({
+                            "identifier": spdxLicenseId,
+                            "scheme": "SPDX"
+                            });
+        with spdxMappingsFilePath.open(mode='w+') as f:
             json.dump(spdxMappings, f, indent=4, sort_keys=True)
     except Exception as e:
         print("Error writing SPDX mappings file")
@@ -60,8 +61,9 @@ def updateSpdxMappingsFile(spdxLicenseId, osiLicenseId):
 def createOsiJsonFile(spdxJson, osiLicenseId, outputFilePath):
     osiUrl = "https://opensource.org/licenses/" + osiLicenseId
     spdxUrl = "https://spdx.org/licenses/" + spdxJson["licenseId"]
-    osiJson = {
+    osiJson = [{
             "id": osiLicenseId,
+            "name": spdxJson["name"],
             "identifiers": [],
             "keywords": ["osi-approved"],
             "links": [
@@ -73,7 +75,7 @@ def createOsiJsonFile(spdxJson, osiLicenseId, outputFilePath):
                     "note": "SPDX page",
                     "url": spdxUrl
                 }],
-            }
+            }]
     textCrossRef = None
     if "crossRef" in spdxJson:
         for cross in spdxJson["crossRef"]:
@@ -81,13 +83,17 @@ def createOsiJsonFile(spdxJson, osiLicenseId, outputFilePath):
                 if textCrossRef == None or textCrossRef["order"] > cross["order"]:
                     textCrossRef = cross
     if textCrossRef != None:
-        osiJson["text"] = [{
+        osiJson[0]["text"] = [{
                         "media_type": "text/html",
                         "title": "HTML",
                         "url": textCrossRef["url"]
                         }]
     else:
-        osiJson["text"] = [];
+        osiJson[0]["text"] = [{
+                        "media_type": "text/html",
+                        "title": "HTML",
+                        "url": osiUrl
+                        }]
     try:
         with outputFilePath.open(mode='w') as f:
             json.dump(osiJson, f, indent=4, sort_keys=True)
@@ -115,7 +121,7 @@ def importFromSpdx(spdxLicenseId, osiLicenseId, osiApproved):
     """
     outputFileName = osiLicenseId+".json"
     outputFilePath = Path("..") / "manual" / outputFileName
-    textFilePath = Path("..") / ".." / "texts" / "plain" / spdxLicenseId
+    textFilePath = Path("..") / ".." / "texts" / "plain" / osiLicenseId
     if outputFilePath.exists():
         print("OSI license ID '"+osiLicenseId+"' already exists")
         sys.exit(1)
@@ -131,10 +137,10 @@ def importFromSpdx(spdxLicenseId, osiLicenseId, osiApproved):
     # Update the SPDX Mappings file            
 
 if __name__ == "__main__":
-    print(sys.argv)
     if len(sys.argv) != 3:
         print("Usage: imporOsiApprovedFromSpdx SPDXLicenseID OSILicenseID")
         sys.exit(2)
     importFromSpdx(sys.argv[1], sys.argv[2], True)
+    print("Sucessfully imported "+sys.argv[1]+".  Be sure to review and update as described in the IMPORTING_FROM_SPDX.md")
     sys.exit(0)
 

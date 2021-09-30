@@ -1,18 +1,21 @@
-{
-    "id": "0BSD",
-    "identifiers": [],
-    "keywords": [
-        "osi-approved"
-    ],
-    "links": [
-        {
-            "note": "OSI Page",
-            "url": "https://opensource.org/licenses/0BSD"
-        },
-        {
-            "note": "SPDX page",
-            "url": "https://spdx.org/licenses/0BSD"
-        }
-    ],
-    "text": []
-}
+[
+    {
+        "id": "0BSD",
+        "identifiers": [],
+        "keywords": [
+            "osi-approved"
+        ],
+        "links": [
+            {
+                "note": "OSI Page",
+                "url": "https://opensource.org/licenses/0BSD"
+            },
+            {
+                "note": "SPDX page",
+                "url": "https://spdx.org/licenses/0BSD"
+            }
+        ],
+        "name": "BSD Zero Clause License",
+        "text": []
+    }
+]

@@ -1,0 +1,11 @@
+[
+    {
+        "id": "BSDplusPatent",
+        "identifiers": [
+            {
+                "identifier": "BSD-2-Clause-Patent",
+                "scheme": "SPDX"
+            }
+        ]
+    }
+]

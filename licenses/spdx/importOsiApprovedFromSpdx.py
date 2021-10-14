@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 # Copyright (c) 2021, Source Auditor Inc.
 # SpdxLicenseIdentifier: GPL-3.0-or-later
 #

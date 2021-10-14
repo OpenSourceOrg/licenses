@@ -1,5 +1,14 @@
 [
     {
+        "id": "AAL",
+        "identifiers": [
+            {
+                "identifier": "AAL",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
         "id": "AFL-3.0",
         "identifiers": [
             {
@@ -13,6 +22,15 @@
         "identifiers": [
             {
                 "identifier": "APL-1.0",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "APSL-2.0",
+        "identifiers": [
+            {
+                "identifier": "APSL-2.0",
                 "scheme": "SPDX"
             }
         ]
@@ -36,15 +54,6 @@
         ]
     },
     {
-        "id": "APSL-2.0",
-        "identifiers": [
-            {
-                "identifier": "APSL-2.0",
-                "scheme": "SPDX"
-            }
-        ]
-    },
-    {
         "id": "Artistic-1.0",
         "identifiers": [
             {
@@ -63,15 +72,6 @@
         ]
     },
     {
-        "id": "AAL",
-        "identifiers": [
-            {
-                "identifier": "AAL",
-                "scheme": "SPDX"
-            }
-        ]
-    },
-    {
         "id": "BSL-1.0",
         "identifiers": [
             {
@@ -81,10 +81,10 @@
         ]
     },
     {
-        "id": "CNRI-Python",
+        "id": "CATOSL-1.1",
         "identifiers": [
             {
-                "identifier": "CNRI-Python",
+                "identifier": "CATOSL-1.1",
                 "scheme": "SPDX"
             }
         ]
@@ -94,6 +94,24 @@
         "identifiers": [
             {
                 "identifier": "CDDL-1.0",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "CECILL-2.1",
+        "identifiers": [
+            {
+                "identifier": "CECILL-2.1",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "CNRI-Python",
+        "identifiers": [
+            {
+                "identifier": "CNRI-Python",
                 "scheme": "SPDX"
             }
         ]
@@ -117,28 +135,10 @@
         ]
     },
     {
-        "id": "CATOSL-1.1",
-        "identifiers": [
-            {
-                "identifier": "CATOSL-1.1",
-                "scheme": "SPDX"
-            }
-        ]
-    },
-    {
         "id": "CUA-OPL-1.0",
         "identifiers": [
             {
                 "identifier": "CUA-OPL-1.0",
-                "scheme": "SPDX"
-            }
-        ]
-    },
-    {
-        "id": "EPL-1.0",
-        "identifiers": [
-            {
-                "identifier": "EPL-1.0",
                 "scheme": "SPDX"
             }
         ]
@@ -180,10 +180,10 @@
         ]
     },
     {
-        "id": "Entessa",
+        "id": "EPL-1.0",
         "identifiers": [
             {
-                "identifier": "Entessa",
+                "identifier": "EPL-1.0",
                 "scheme": "SPDX"
             }
         ]
@@ -207,6 +207,15 @@
         ]
     },
     {
+        "id": "Entessa",
+        "identifiers": [
+            {
+                "identifier": "Entessa",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
         "id": "Fair",
         "identifiers": [
             {
@@ -225,73 +234,10 @@
         ]
     },
     {
-        "id": "AGPL-3.0",
-        "identifiers": [
-            {
-                "identifier": "AGPL-3.0",
-                "scheme": "SPDX"
-            }
-        ]
-    },
-    {
-        "id": "GPL-2.0",
-        "identifiers": [
-            {
-                "identifier": "GPL-2.0",
-                "scheme": "SPDX"
-            }
-        ]
-    },
-    {
-        "id": "GPL-3.0",
-        "identifiers": [
-            {
-                "identifier": "GPL-3.0",
-                "scheme": "SPDX"
-            }
-        ]
-    },
-    {
-        "id": "LGPL-2.1",
-        "identifiers": [
-            {
-                "identifier": "LGPL-2.1",
-                "scheme": "SPDX"
-            }
-        ]
-    },
-    {
-        "id": "LGPL-3.0",
-        "identifiers": [
-            {
-                "identifier": "LGPL-3.0",
-                "scheme": "SPDX"
-            }
-        ]
-    },
-    {
         "id": "HPND",
         "identifiers": [
             {
                 "identifier": "HPND",
-                "scheme": "SPDX"
-            }
-        ]
-    },
-    {
-        "id": "IPL-1.0",
-        "identifiers": [
-            {
-                "identifier": "IPL-1.0",
-                "scheme": "SPDX"
-            }
-        ]
-    },
-    {
-        "id": "Intel",
-        "identifiers": [
-            {
-                "identifier": "Intel",
                 "scheme": "SPDX"
             }
         ]
@@ -306,6 +252,15 @@
         ]
     },
     {
+        "id": "IPL-1.0",
+        "identifiers": [
+            {
+                "identifier": "IPL-1.0",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
         "id": "ISC",
         "identifiers": [
             {
@@ -315,10 +270,19 @@
         ]
     },
     {
-        "id": "LPPL-1.3c",
+        "id": "Intel",
         "identifiers": [
             {
-                "identifier": "LPPL-1.3c",
+                "identifier": "Intel",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "LPL-1.0",
+        "identifiers": [
+            {
+                "identifier": "LPL-1.0",
                 "scheme": "SPDX"
             }
         ]
@@ -333,10 +297,64 @@
         ]
     },
     {
-        "id": "LPL-1.0",
+        "id": "LPPL-1.3c",
         "identifiers": [
             {
-                "identifier": "LPL-1.0",
+                "identifier": "LPPL-1.3c",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "LiLiQ-P-1.1",
+        "identifiers": [
+            {
+                "identifier": "LiLiQ-P-1.1",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "LiLiQ-R-1.1",
+        "identifiers": [
+            {
+                "identifier": "LiLiQ-R-1.1",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "MIT",
+        "identifiers": [
+            {
+                "identifier": "MIT",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "MPL-1.0",
+        "identifiers": [
+            {
+                "identifier": "MPL-1.0",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "MPL-1.1",
+        "identifiers": [
+            {
+                "identifier": "MPL-1.1",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "MPL-2.0",
+        "identifiers": [
+            {
+                "identifier": "MPL-2.0",
                 "scheme": "SPDX"
             }
         ]
@@ -378,33 +396,6 @@
         ]
     },
     {
-        "id": "MPL-1.0",
-        "identifiers": [
-            {
-                "identifier": "MPL-1.0",
-                "scheme": "SPDX"
-            }
-        ]
-    },
-    {
-        "id": "MPL-1.1",
-        "identifiers": [
-            {
-                "identifier": "MPL-1.1",
-                "scheme": "SPDX"
-            }
-        ]
-    },
-    {
-        "id": "MPL-2.0",
-        "identifiers": [
-            {
-                "identifier": "MPL-2.0",
-                "scheme": "SPDX"
-            }
-        ]
-    },
-    {
         "id": "Multics",
         "identifiers": [
             {
@@ -423,10 +414,10 @@
         ]
     },
     {
-        "id": "Naumen",
+        "id": "NCSA",
         "identifiers": [
             {
-                "identifier": "Naumen",
+                "identifier": "NCSA",
                 "scheme": "SPDX"
             }
         ]
@@ -436,15 +427,6 @@
         "identifiers": [
             {
                 "identifier": "NGPL",
-                "scheme": "SPDX"
-            }
-        ]
-    },
-    {
-        "id": "Nokia",
-        "identifiers": [
-            {
-                "identifier": "Nokia",
                 "scheme": "SPDX"
             }
         ]
@@ -468,10 +450,37 @@
         ]
     },
     {
+        "id": "Naumen",
+        "identifiers": [
+            {
+                "identifier": "Naumen",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "Nokia",
+        "identifiers": [
+            {
+                "identifier": "Nokia",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
         "id": "OCLC-2.0",
         "identifiers": [
             {
                 "identifier": "OCLC-2.0",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "OFL-1.1",
+        "identifiers": [
+            {
+                "identifier": "OFL-1.1",
                 "scheme": "SPDX"
             }
         ]
@@ -549,15 +558,6 @@
         ]
     },
     {
-        "id": "RPSL-1.0",
-        "identifiers": [
-            {
-                "identifier": "RPSL-1.0",
-                "scheme": "SPDX"
-            }
-        ]
-    },
-    {
         "id": "RPL-1.1",
         "identifiers": [
             {
@@ -576,28 +576,19 @@
         ]
     },
     {
+        "id": "RPSL-1.0",
+        "identifiers": [
+            {
+                "identifier": "RPSL-1.0",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
         "id": "RSCPL",
         "identifiers": [
             {
                 "identifier": "RSCPL",
-                "scheme": "SPDX"
-            }
-        ]
-    },
-    {
-        "id": "OFL-1.1",
-        "identifiers": [
-            {
-                "identifier": "OFL-1.1",
-                "scheme": "SPDX"
-            }
-        ]
-    },
-    {
-        "id": "Sleepycat",
-        "identifiers": [
-            {
-                "identifier": "Sleepycat",
                 "scheme": "SPDX"
             }
         ]
@@ -621,19 +612,10 @@
         ]
     },
     {
-        "id": "Watcom-1.0",
+        "id": "Sleepycat",
         "identifiers": [
             {
-                "identifier": "Watcom-1.0",
-                "scheme": "SPDX"
-            }
-        ]
-    },
-    {
-        "id": "NCSA",
-        "identifiers": [
-            {
-                "identifier": "NCSA",
+                "identifier": "Sleepycat",
                 "scheme": "SPDX"
             }
         ]
@@ -657,6 +639,15 @@
         ]
     },
     {
+        "id": "Watcom-1.0",
+        "identifiers": [
+            {
+                "identifier": "Watcom-1.0",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
         "id": "Xnet",
         "identifiers": [
             {
@@ -666,19 +657,19 @@
         ]
     },
     {
-        "id": "Zlib",
+        "id": "ZPL-2.0",
         "identifiers": [
             {
-                "identifier": "Zlib",
+                "identifier": "ZPL-2.0",
                 "scheme": "SPDX"
             }
         ]
     },
     {
-        "id": "ZPL-2.0",
+        "id": "Zlib",
         "identifiers": [
             {
-                "identifier": "ZPL-2.0",
+                "identifier": "Zlib",
                 "scheme": "SPDX"
             }
         ]

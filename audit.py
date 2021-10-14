@@ -81,18 +81,37 @@ def has_error(report):
     return False
 
 
-def audit(path='licenses.json', exit=True):
+def audit(path='licenses.json'):
     with open(path, 'r') as fd:
         licenses = json.load(fd)
     report = {"identifiers": audit_identifiers(licenses),
               "keywords": audit_tags(licenses),
               "names": audit_names(licenses),
               "full_text": audit_full_text(licenses)}
-    if exit and has_error(report):
-        json.dump(report, sys.stdout, indent=4, sort_keys=True)
-        sys.exit(1)
     return report
 
 
+def display_report(report):
+    fatal = False
+    for key, values in report.items():
+        for value in values:
+            if value['fatal']:
+                print("FATAL:", value['id'], value['message'], value)
+                fatal = True
+    if fatal:
+        raise Exception("Fatal error found")
+
+    for identifier in report['identifiers']:
+        print(" {count:03d} licenses contain scheme {scheme} ({percent:1f}%)".format(
+            **identifier
+        ))
+
+    for tag in report['keywords']:
+        print(" {count:03d} licenses contain tag {tag} ({percent:1f}%)".format(
+            **tag
+        ))
+
+
 if __name__ == "__main__":
-    audit(*sys.argv[1:])
+    report = audit(*sys.argv[1:])
+    display_report(report=report)

@@ -16,5 +16,14 @@
                 "scheme": "SPDX"
             }
         ]
+    },
+    {
+        "id": "BSD-1-Clause",
+        "identifiers": [
+            {
+                "identifier": "BSD-1-Clause",
+                "scheme": "SPDX"
+            }
+        ]
     }
 ]

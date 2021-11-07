@@ -1,0 +1,27 @@
+[
+    {
+        "id": "EPL-2.0",
+        "identifiers": [],
+        "keywords": [
+            "osi-approved"
+        ],
+        "links": [
+            {
+                "note": "OSI Page",
+                "url": "https://opensource.org/licenses/EPL-2.0"
+            },
+            {
+                "note": "SPDX page",
+                "url": "https://spdx.org/licenses/EPL-2.0"
+            }
+        ],
+        "name": "Eclipse Public License Version 2.0",
+        "text": [
+            {
+                "media_type": "text/html",
+                "title": "HTML",
+                "url": "https://www.eclipse.org/legal/epl-2.0"
+            }
+        ]
+    }
+]

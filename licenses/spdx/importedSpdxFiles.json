@@ -16,5 +16,14 @@
                 "scheme": "SPDX"
             }
         ]
+    },
+    {
+        "id": "EPL-2.0",
+        "identifiers": [
+            {
+                "identifier": "EPL-2.0",
+                "scheme": "SPDX"
+            }
+        ]
     }
 ]

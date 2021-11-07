@@ -16,5 +16,14 @@
                 "scheme": "SPDX"
             }
         ]
+    },
+    {
+        "id": "BSD-3-Clause-LBNL",
+        "identifiers": [
+            {
+                "identifier": "BSD-3-Clause-LBNL",
+                "scheme": "SPDX"
+            }
+        ]
     }
 ]

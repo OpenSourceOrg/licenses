@@ -16,5 +16,14 @@
                 "scheme": "SPDX"
             }
         ]
+    },
+    {
+        "id": "MIT-0",
+        "identifiers": [
+            {
+                "identifier": "MIT-0",
+                "scheme": "SPDX"
+            }
+        ]
     }
 ]

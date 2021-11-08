@@ -16,5 +16,14 @@
                 "scheme": "SPDX"
             }
         ]
+    },
+    {
+        "id": "OLDAP-2.8",
+        "identifiers": [
+            {
+                "identifier": "OLDAP-2.8",
+                "scheme": "SPDX"
+            }
+        ]
     }
 ]

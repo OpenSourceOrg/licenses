@@ -16,5 +16,14 @@
                 "scheme": "SPDX"
             }
         ]
+    },
+    {
+        "id": "PHP-3.01",
+        "identifiers": [
+            {
+                "identifier": "PHP-3.01",
+                "scheme": "SPDX"
+            }
+        ]
     }
 ]

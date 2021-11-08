@@ -1,0 +1,27 @@
+[
+    {
+        "id": "PHP-3.01",
+        "identifiers": [],
+        "keywords": [
+            "osi-approved"
+        ],
+        "links": [
+            {
+                "note": "OSI Page",
+                "url": "https://opensource.org/licenses/PHP-3.01"
+            },
+            {
+                "note": "SPDX page",
+                "url": "https://spdx.org/licenses/PHP-3.01"
+            }
+        ],
+        "name": "PHP License 3.01",
+        "text": [
+            {
+                "media_type": "text/html",
+                "title": "HTML",
+                "url": "https://opensource.org/licenses/PHP-3.01"
+            }
+        ]
+    }
+]

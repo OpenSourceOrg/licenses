@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 # Copyright (c) 2015, Paul R. Tagliamonte <paultag@opensource.org>
 #
 # This program is free software: you can redistribute it and/or modify
@@ -20,7 +21,8 @@ import requests
 def stream(known):
     request = requests.get("http://spdx.org/licenses/licenses.json")
     spdx_json = request.json()
-    for license in spdx_json["licenses"]:
+    licenses = sorted(spdx_json["licenses"], key=lambda x: x["licenseId"])
+    for license in licenses:
         if license["isOsiApproved"] and not license["isDeprecatedLicenseId"]:
             if license["licenseId"] not in known:
                 sys.stderr.write("Unknown license: {}\n".format(license["licenseId"]))

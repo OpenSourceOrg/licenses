@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # Copyright (c) 2015, Paul R. Tagliamonte <paultag@opensource.org>
 #
 # This program is free software: you can redistribute it and/or modify
@@ -106,42 +106,15 @@ def stream_licenses(path="./licenses"):
 
 
 def load_licenses(path="./licenses", output="licenses.json"):
-    if os.path.exists(output):
-        if os.stat(output).st_mtime < os.stat(__file__).st_mtime:
-            os.unlink(output)
-        else:
-            print("Output file already exists, doing nothing")
-            sys.exit(0)
-
     licenses = stream_licenses(path=path)
     data = list(sorted(validate(merge_stream(licenses)), key=lambda x: x['id']))
 
     with open(output, 'w') as fd:
-        json.dump(data, fd)
+        json.dump(data, fd, sort_keys=True)
     print("{len} records written out".format(len=len(data)))
 
-    # Now, let's audit it
-    report = audit.audit(path=output, exit=False)
-
-    fatal = False
-    for key, values in report.items():
-        for value in values:
-            if value['fatal']:
-                print("FATAL:", value['id'], value['message'], value)
-                fatal = True
-    if fatal:
-        raise Exception("Fatal error found")
-
-    for identifier in report['identifiers']:
-        print(" {count:03d} licenses contain scheme {scheme} ({percent:1f}%)".format(
-            **identifier
-        ))
-
-    for tag in report['keywords']:
-        print(" {count:03d} licenses contain tag {tag} ({percent:1f}%)".format(
-            **tag
-        ))
-
+    report = audit.audit(path=output)
+    audit.display_report(report=report)
 
 if __name__ == "__main__":
     load_licenses(*sys.argv[1:])

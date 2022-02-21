@@ -1,0 +1,27 @@
+[
+    {
+        "id": "BSD-1-Clause",
+        "identifiers": [],
+        "keywords": [
+            "osi-approved"
+        ],
+        "links": [
+            {
+                "note": "OSI Page",
+                "url": "https://opensource.org/licenses/BSD-1-Clause"
+            },
+            {
+                "note": "SPDX page",
+                "url": "https://spdx.org/licenses/BSD-1-Clause"
+            }
+        ],
+        "name": "1-clause BSD License",
+        "text": [
+            {
+                "media_type": "text/html",
+                "title": "HTML",
+                "url": "https://opensource.org/licenses/BSD-1-Clause"
+            }
+        ]
+    }
+]

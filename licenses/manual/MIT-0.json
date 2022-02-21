@@ -1,0 +1,27 @@
+[
+    {
+        "id": "MIT-0",
+        "identifiers": [],
+        "keywords": [
+            "osi-approved"
+        ],
+        "links": [
+            {
+                "note": "OSI Page",
+                "url": "https://opensource.org/licenses/MIT-0"
+            },
+            {
+                "note": "SPDX page",
+                "url": "https://spdx.org/licenses/MIT-0"
+            }
+        ],
+        "name": "MIT No Attribution",
+        "text": [
+            {
+                "media_type": "text/html",
+                "title": "HTML",
+                "url": "https://github.com/aws/mit-0"
+            }
+        ]
+    }
+]

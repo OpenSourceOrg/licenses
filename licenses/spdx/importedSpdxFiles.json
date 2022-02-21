@@ -1,0 +1,38 @@
+[
+    {
+        "id": "0BSD",
+        "identifiers": [
+            {
+                "identifier": "0BSD",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "BSDplusPatent",
+        "identifiers": [
+            {
+                "identifier": "BSD-2-Clause-Patent",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "MIT-0",
+        "identifiers": [
+            {
+                "identifier": "MIT-0",
+                 "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "BSD-1-Clause",
+        "identifiers": [
+            {
+                "identifier": "BSD-1-Clause",
+                "scheme": "SPDX"
+            }
+        ]
+    }
+]

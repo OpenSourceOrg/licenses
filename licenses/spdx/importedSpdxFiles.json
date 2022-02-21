@@ -22,6 +22,11 @@
         "identifiers": [
             {
                 "identifier": "PHP-3.01",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
         "id": "BSD-1-Clause",
         "identifiers": [
             {

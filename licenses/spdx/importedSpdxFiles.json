@@ -22,6 +22,11 @@
         "identifiers": [
             {
                 "identifier": "MIT-0",
+                 "scheme": "SPDX"
+            }
+        ]
+    },
+    {
         "id": "BSD-1-Clause",
         "identifiers": [
             {

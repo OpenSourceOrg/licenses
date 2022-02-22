@@ -27,6 +27,42 @@
         ]
     },
     {
+        "id": "EPL-2.0",
+        "identifiers": [
+            {
+                "identifier": "EPL-2.0",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "OLDAP-2.8",
+        "identifiers": [
+            {
+                "identifier": "OLDAP-2.8",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "PHP-3.01",
+        "identifiers": [
+            {
+                "identifier": "PHP-3.01",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "MIT-0",
+        "identifiers": [
+            {
+                "identifier": "MIT-0",
+                 "scheme": "SPDX"
+            }
+        ]
+    },
+    {
         "id": "BSD-1-Clause",
         "identifiers": [
             {

@@ -18,6 +18,15 @@
         ]
     },
     {
+        "id": "BSD-3-Clause-LBNL",
+        "identifiers": [
+            {
+                "identifier": "BSD-3-Clause-LBNL",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
         "id": "EPL-2.0",
         "identifiers": [
             {

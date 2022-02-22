@@ -18,6 +18,15 @@
         ]
     },
     {
+        "id": "CAL-1.0",
+        "identifiers": [
+            {
+                "identifier": "CAL-1.0",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
         "id": "BSD-3-Clause-LBNL",
         "identifiers": [
             {

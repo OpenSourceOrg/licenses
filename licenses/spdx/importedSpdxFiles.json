@@ -18,6 +18,15 @@
         ]
     },
     {
+        "id": "EPL-2.0",
+        "identifiers": [
+            {
+                "identifier": "EPL-2.0",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
         "id": "OLDAP-2.8",
         "identifiers": [
             {

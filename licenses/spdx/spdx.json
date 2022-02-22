@@ -324,6 +324,14 @@
         ]
     },
     {
+        "id": "LiLiQ-R+",
+        "identifiers": [
+            {
+                "identifier": "LiLiQ-Rplus-1.1",
+                "scheme": "SPDX"
+            }
+        ]
+    },    {
         "id": "MIT",
         "identifiers": [
             {
@@ -616,6 +624,15 @@
         "identifiers": [
             {
                 "identifier": "Sleepycat",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "UPL",
+        "identifiers": [
+            {
+                "identifier": "UPL-1.0",
                 "scheme": "SPDX"
             }
         ]

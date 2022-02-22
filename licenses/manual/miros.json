@@ -1,0 +1,42 @@
+[
+    {
+        "id": "MirOS",
+        "identifiers": [
+            {
+                "identifier": "MirBSD",
+                "scheme": "upstream short name"
+            },
+            {
+                "identifier": "The MirOS Licence",
+                "scheme": "upstream full name"
+            }
+        ],
+        "links": [
+            {
+                "note": "OSI Page",
+                "url": "https://opensource.org/licenses/MirOS"
+            }
+        ],
+        "name": "The MirOS Licence (MirBSD)",
+        "keywords": [
+            "osi-approved"
+        ],
+        "text": [
+            {
+                "media_type": "text/plain; charset=UTF-8",
+                "title": "Plain Text (UTF-8)",
+                "url": "http://www.mirbsd.org/MirOS-Licence"
+            },
+            {
+                "media_type": "text/plain; charset=ISO_646.irv:1991",
+                "title": "Plain Text (ASCII)",
+                "url": "http://www.mirbsd.org/MirOS-Licence.asc"
+            },
+            {
+                "media_type": "text/html",
+                "title": "HTML",
+                "url": "http://www.mirbsd.org/MirOS-Licence.htm"
+            }
+        ]
+    }
+]

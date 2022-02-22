@@ -1,0 +1,27 @@
+[
+    {
+        "id": "OLDAP-2.8",
+        "identifiers": [],
+        "keywords": [
+            "osi-approved"
+        ],
+        "links": [
+            {
+                "note": "OSI Page",
+                "url": "https://opensource.org/licenses/OLDAP-2.8"
+            },
+            {
+                "note": "SPDX page",
+                "url": "https://spdx.org/licenses/OLDAP-2.8"
+            }
+        ],
+        "name": "OpenLDAP Public License Version 2.8",
+        "text": [
+            {
+                "media_type": "text/html",
+                "title": "HTML",
+                "url": "http://www.openldap.org/software/release/license.html"
+            }
+        ]
+    }
+]

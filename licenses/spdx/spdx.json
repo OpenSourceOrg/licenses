@@ -502,6 +502,15 @@
             }
         ]
     },
+	{
+        "id": "OPL-2.1",
+        "identifiers": [
+            {
+                "identifier": "OSET-PL-2.1",
+                "scheme": "SPDX"
+            }
+        ]
+    },
     {
         "id": "OSL-1.0",
         "identifiers": [

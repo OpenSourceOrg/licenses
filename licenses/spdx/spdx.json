@@ -89,6 +89,33 @@
             }
         ]
     },
+	{
+        "id": "CERN-OHL-P",
+        "identifiers": [
+            {
+                "identifier": "CERN-OHL-P-2.0",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+	{
+        "id": "CERN-OHL-W",
+        "identifiers": [
+            {
+                "identifier": "CERN-OHL-W-2.0",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+	{
+        "id": "CERN-OHL-S",
+        "identifiers": [
+            {
+                "identifier": "CERN-OHL-S-2.0",
+                "scheme": "SPDX"
+            }
+        ]
+    },
     {
         "id": "CDDL-1.0",
         "identifiers": [
@@ -404,6 +431,15 @@
         ]
     },
     {
+        "id": "MulanPSL–2.0",
+        "identifiers": [
+            {
+                "identifier": "MulanPSL-2.0",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
         "id": "Multics",
         "identifiers": [
             {
@@ -633,6 +669,24 @@
         "identifiers": [
             {
                 "identifier": "Sleepycat",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "UCL-1.0",
+        "identifiers": [
+            {
+                "identifier": "UCL-1.0",
+                "scheme": "SPDX"
+            }
+        ]
+    },
+    {
+        "id": "Unlicense",
+        "identifiers": [
+            {
+                "identifier": "Unlicense",
                 "scheme": "SPDX"
             }
         ]

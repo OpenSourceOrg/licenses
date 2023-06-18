@@ -1,5 +1,5 @@
 # Importing OSI License Information from SPDX
-If an OSI approved license is an (SPDX listed license)[https://spdx.org/licenses/] but not in this OSI licenses repository, the `importOsiApprovedFromSpdx.py` can be used to initialize the OSI license data from the SPDX license data.
+If an OSI approved license is an [SPDX listed license](https://spdx.org/licenses/) but not in this OSI licenses repository, the `importOsiApprovedFromSpdx.py` can be used to initialize the OSI license data from the SPDX license data.
 
 **PLEASE NOTE:** Since OSI data may differ from SPDX, follow ALL of the steps below to ensure an accurate import of the license data.
 

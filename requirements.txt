@@ -1,2 +1,2 @@
-validictory
+jsonschema
 boto

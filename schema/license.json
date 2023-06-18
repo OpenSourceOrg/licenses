@@ -14,7 +14,6 @@
                     }
                 }
             },
-            "required": true,
             "type": "array"
         },
         "keywords": {
@@ -37,7 +36,6 @@
                 },
                 "type": "object"
             },
-            "required": true,
             "type": "array"
         },
         "name": {
@@ -58,11 +56,9 @@
                 },
                 "type": "object"
             },
-            "required": true,
             "type": "array"
         },
         "superseded_by": {
-            "required": false,
             "type": [
                 "null",
                 "string"
@@ -86,5 +82,10 @@
             "type": "array"
         }
     },
+    "required": [
+        "identifiers",
+        "links",
+        "other_names"
+    ],
     "type": "object"
 }

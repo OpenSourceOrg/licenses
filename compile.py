@@ -18,7 +18,7 @@ import os
 import os.path
 import sys
 import json
-import validictory
+import jsonschema
 import audit
 
 if sys.version_info < (3,):
@@ -76,8 +76,8 @@ def validate(stream):
 
     def valid_schema(obj):
         try:
-            validictory.validate(obj, schema)
-        except validictory.validator.RequiredFieldValidationError:
+            jsonschema.validate(obj, schema)
+        except jsonschema.exceptions.ValidationError:
             print("Failure to validate {id}".format(**obj))
             raise
 

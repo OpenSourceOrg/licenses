@@ -19,7 +19,7 @@ import json
 import requests
 
 def stream(known):
-    request = requests.get("http://spdx.org/licenses/licenses.json")
+    request = requests.get("https://spdx.org/licenses/licenses.json")
     spdx_json = request.json()
     licenses = sorted(spdx_json["licenses"], key=lambda x: x["licenseId"])
     for license in licenses:

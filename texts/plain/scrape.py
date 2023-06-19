@@ -28,8 +28,10 @@ def lxmlize(url):
 
 
 def do_scrape(id_):
-    text ,= lxmlize("http://opensource.org/licenses/{}".format(id_)).xpath(
-        "//div[@class='content clearfix']"
+    text ,= lxmlize(
+        "https://opensource.org/licenses/{}".format(id_)
+    ).find_class(
+        "entry-content"
     )
     return text.text_content()
 

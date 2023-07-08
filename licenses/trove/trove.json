@@ -54,6 +54,15 @@
         ]
     },
     {
+        "id": "BSL-1.0",
+        "identifiers": [
+            {
+                "identifier": "License :: OSI Approved :: Boost Software License 1.0 (BSL-1.0)",
+                "scheme": "Trove"
+            }
+        ]
+    },
+    {
         "id": "CECILL-2.1",
         "identifiers": [
             {
@@ -63,10 +72,37 @@
         ]
     },
     {
+        "id": "CDDL-1.0",
+        "identifiers": [
+            {
+                "identifier": "License :: OSI Approved :: Common Development and Distribution License 1.0 (CDDL-1.0)",
+                "scheme": "Trove"
+            }
+        ]
+    },
+    {
         "id": "CPL-1.0",
         "identifiers": [
             {
                 "identifier": "License :: OSI Approved :: Common Public License",
+                "scheme": "Trove"
+            }
+        ]
+    },
+    {
+        "id": "EPL-1.0",
+        "identifiers": [
+            {
+                "identifier": "License :: OSI Approved :: Eclipse Public License 1.0 (EPL-1.0)",
+                "scheme": "Trove"
+            }
+        ]
+    },
+    {
+        "id": "EPL-2.0",
+        "identifiers": [
+            {
+                "identifier": "License :: OSI Approved :: Eclipse Public License 2.0 (EPL-2.0)",
                 "scheme": "Trove"
             }
         ]
@@ -85,6 +121,15 @@
         "identifiers": [
             {
                 "identifier": "License :: OSI Approved :: European Union Public Licence 1.1 (EUPL 1.1)",
+                "scheme": "Trove"
+            }
+        ]
+    },
+    {
+        "id": "EUPL-1.2",
+        "identifiers": [
+            {
+                "identifier": "License :: OSI Approved :: European Union Public Licence 1.2 (EUPL 1.2)",
                 "scheme": "Trove"
             }
         ]
@@ -153,6 +198,15 @@
         ]
     },
     {
+        "id": "HPND",
+        "identifiers": [
+            {
+                "identifier": "License :: OSI Approved :: Historical Permission Notice and Disclaimer (HPND)",
+                "scheme": "Trove"
+            }
+        ]
+    },
+    {
         "id": "IPL-1.0",
         "identifiers": [
             {
@@ -198,10 +252,28 @@
         ]
     },
     {
+        "id": "MIT-0",
+        "identifiers": [
+            {
+                "identifier": "License :: OSI Approved :: MIT No Attribution License (MIT-0)",
+                "scheme": "Trove"
+            }
+        ]
+    },
+    {
         "id": "CVW",
         "identifiers": [
             {
                 "identifier": "License :: OSI Approved :: MITRE Collaborative Virtual Workspace License (CVW)",
+                "scheme": "Trove"
+            }
+        ]
+    },
+    {
+        "id": "MirOS",
+        "identifiers": [
+            {
+                "identifier": "License :: OSI Approved :: MirOS License (MirOS)",
                 "scheme": "Trove"
             }
         ]
@@ -270,6 +342,24 @@
         ]
     },
     {
+        "id": "OSL-3.0",
+        "identifiers": [
+            {
+                "identifier": "License :: OSI Approved :: Open Software License 3.0 (OSL-3.0)",
+                "scheme": "Trove"
+            }
+        ]
+    },
+    {
+        "id": "PostgreSQL",
+        "identifiers": [
+            {
+                "identifier": "License :: OSI Approved :: PostgreSQL License",
+                "scheme": "Trove"
+            }
+        ]
+    },
+    {
         "id": "CNRI-Python",
         "identifiers": [
             {
@@ -301,6 +391,15 @@
         "identifiers": [
             {
                 "identifier": "License :: OSI Approved :: Ricoh Source Code Public License",
+                "scheme": "Trove"
+            }
+        ]
+    },
+    {
+        "id": "OFL-1.1",
+        "identifiers": [
+            {
+                "identifier": "License :: OSI Approved :: SIL Open Font License 1.1 (OFL-1.1)",
                 "scheme": "Trove"
             }
         ]

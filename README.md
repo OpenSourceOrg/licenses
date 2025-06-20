@@ -1,3 +1,5 @@
+## This data is no longer maintained since there is [a replacement API that uses the license metadata from the OSI web site](https://opensource.org/blog/introducing-the-new-api-for-osi-approved-licenses) 
+
 licenses
 ========
 
